@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Log from '../views/Log.vue'
+import Register from '@/components/Register'
 
 
 Vue.use(Router)
@@ -17,6 +18,11 @@ export default new Router({
     path: '/log',
     name: 'log',
    component:Log
-   }
+   },
+   {
+    path: '/register',
+    name: 'register',
+   component:Register
+   },
   ]
 })
