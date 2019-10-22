@@ -5,7 +5,7 @@
     <label for="fname">账号</label>
     <input type="text" id="fname" name="firstname" placeholder="手机号码/用户名">
 
-    <label for="lname">密码</label>
+    <label for="lname">密码!</label>
     <input type="password" id="lname" name="lastname" placeholder="请输入密码">
 
    <input type="submit" value="登录">
