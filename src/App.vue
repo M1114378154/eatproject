@@ -1,23 +1,25 @@
 <template>
-  <div id="app"> 
+  <div id="app">
     <!-- <img src="./assets/logo.png"> -->
-     <router-link to="/">Home</router-link> |
- <router-link to="/log">登录</router-link>|
- <router-link to="/register">注册</router-link>
-  <router-link to="/category">首页分类</router-link>
-    <router-view/>
+
+    <router-link to="/">Home</router-link>|
+    <router-link to="/log">登录</router-link>|
+    <router-link to="/register">注册</router-link>
+    <router-link to="/Mygroup">我的</router-link>
+    <router-view />
+
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
-}
+  name: "App"
+};
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
