@@ -21,7 +21,7 @@
   </div>
 
   <div class="row">
-    <input type="submit"  value="注册">
+    <input type="Resubmit"  value="注册">
   </div>
   </form>
 </div>
@@ -64,7 +64,7 @@ label {
   display: inline-block;
 }
 
-input[type=submit] {
+input[type=Resubmit] {
   background-color: #4CAF50;
   color: white;
   padding: 12px 20px;
