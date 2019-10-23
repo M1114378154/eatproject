@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Log from '../views/Log.vue'
 import Register from '@/components/Register'
+import MyGroup from '@/components/Mygroup'
 
 
 Vue.use(Router)
@@ -14,15 +15,20 @@ export default new Router({
       name: 'HelloWorld',
       component: HelloWorld
     },
-   {
-    path: '/log',
-    name: 'log',
-   component:Log
-   },
-   {
-    path: '/register',
-    name: 'register',
-   component:Register
-   },
+    {
+      path: '/log',
+      name: 'log',
+      component: Log
+    },
+    {
+      path: '/register',
+      name: 'register',
+      component: Register
+    },
+    {
+      path: '/MyGroup',
+      name: 'MyGroup',
+      component: MyGroup
+    },
   ]
 })
