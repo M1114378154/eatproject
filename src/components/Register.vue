@@ -1,40 +1,44 @@
 <template>
-    <div class="Register">
-        <h1>注册好吃网</h1>
-<div class="container">
-  <form action="/action_page.php">
-  <div class="row">
-    <div class="col-25">
-      <label for="fname">手机号/用户名</label>
-    </div>
-    <div class="col-75">
-      <input type="text" id="fname" name="firstname" placeholder="手机号/用户名">
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-25">
-      <label for="lname">密码</label>
-    </div>
-    <div class="col-75">
-      <input type="password" id="lname" name="lastname" placeholder="请输入密码">
-    </div>
-  </div>
+  <div class="Register">
+    <h1>注册好吃网</h1>
+    <div class="container">
+      <form action="/action_page.php">
+        <div class="row">
+
+          <div class="col-25">
+            <label for="fname">手机号/用户名</label>
+          </div>
+
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="手机号/用户名" />
+          </div>
+
+        </div>
+        
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">密码</label>
+          </div>
+          <div class="col-75">
+            <input type="password" id="lname" name="lastname" placeholder="请输入密码" />
+          </div>
+        </div>
 
   <div class="row">
-    <input type="submit"  value="注册">
+    <input type="Resubmit"  value="注册">
   </div>
   </form>
-</div>
-    </div>
+  </div>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'Register',
+  name: "Register",
   props: {
     msg: String
   }
-}
+};
 </script>
 
 <style>
@@ -42,21 +46,23 @@ export default {
   box-sizing: border-box;
 }
 
-input[type=text], select, textarea {
+input[type="text"],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
   resize: vertical;
- 
 }
-input[type=password], select, textarea {
+input[type="password"],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
   resize: vertical;
- 
 }
 
 label {
@@ -64,22 +70,21 @@ label {
   display: inline-block;
 }
 
-input[type=submit] {
+
+input[type=Resubmit] {
   background-color: #4CAF50;
+
   color: white;
   padding: 12px 20px;
-margin-top: 20px;
+  margin-top: 20px;
   border-radius: 4px;
   cursor: pointer;
   /* float: right; */
-   text-align: center;
-   width: 10%;
-
-
-  
+  text-align: center;
+  width: 10%;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: #45a049;
 }
 
@@ -107,10 +112,12 @@ input[type=submit]:hover {
   display: table;
   clear: both;
 }
- 
+
 /* 响应式布局 layout - 在屏幕宽度小于 600px 时， 设置为上下堆叠元素 */
 @media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
+  .col-25,
+  .col-75,
+  input[type="submit"] {
     width: 100%;
     margin-top: 0;
   }

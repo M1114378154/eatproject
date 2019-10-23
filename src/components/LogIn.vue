@@ -58,7 +58,7 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 input[type=submit2] {
-  width: 98%;
+  width: 100%;
   background-color: skyblue;
   color: white;  
   padding: 14px 20px;
