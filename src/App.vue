@@ -7,6 +7,8 @@
     <router-link to="/register">注册</router-link>
     <router-link to="/Mygroup">我的</router-link>
     <router-link to="/VideoGroup">视频专区</router-link>
+    <router-link to="/Hotfood">热门好吃推荐</router-link>
+    <router-link to="/Foodstrategy">美食攻略</router-link>
     <router-view />
 
   </div>

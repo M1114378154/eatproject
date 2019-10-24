@@ -5,6 +5,8 @@ import Log from '../views/Log.vue'
 import Register from '@/components/Register'
 import MyGroup from '@/components/Mygroup'
 import VideoGroup from '@/components/VideoGroup'
+import Hotfood from '@/components/Hotfood'
+import Foodstrategy from '@/components/Foodstrategy'
 
 
 
@@ -40,6 +42,18 @@ export default new Router({
       path: '/VideoGroup',
       name: 'VideoGroup',
       component: VideoGroup
+    },
+      //热门好吃推荐
+      {
+        path: '/Hotfood',
+        name: 'Hotfood',
+        component: Hotfood
+      },
+        //美食攻略
+    {
+      path: '/Foodstrategy',
+      name: 'Foodstrategy',
+      component: Foodstrategy
     },
 
 
