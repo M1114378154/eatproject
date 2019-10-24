@@ -5,6 +5,9 @@ import Log from '../views/Log.vue'
 import Register from '@/components/Register'
 
 import MyGroup from '@/components/Mygroup'
+import Hotfood from '@/components/Hotfood'
+import Foodstrategy from '@/components/Foodstrategy'
+import Deliciousarea from '@/components/Deliciousarea'
 
 
 
@@ -33,6 +36,20 @@ export default new Router({
       name: 'MyGroup',
       component: MyGroup
     },
-
+    {
+      path: '/Hotfood',
+      name: 'Hotfood',
+      component: Hotfood
+    },
+    {
+      path: '/Foodstrategy',
+      name: 'Foodstrategy',
+      component: Foodstrategy
+    },
+    {
+      path: '/Deliciousarea',
+      name: 'Deliciousarea',
+      component: Deliciousarea
+    },
   ]
 })
