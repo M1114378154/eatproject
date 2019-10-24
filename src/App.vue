@@ -6,6 +6,7 @@
     <router-link to="/log">登录</router-link>|
     <router-link to="/register">注册</router-link>
     <router-link to="/Mygroup">我的</router-link>
+    <router-link to="/VideoGroup">视频专区</router-link>
     <router-view />
 
   </div>

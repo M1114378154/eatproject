@@ -62,5 +62,6 @@ export default {
 }
 .row .right {
   float: right;
+  text-decoration: none;
 }
 </style>
