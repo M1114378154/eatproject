@@ -204,7 +204,7 @@ export default {
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: #f1f1f1;
+  /* background-color: #f1f1f1; */
 }
 
 .foodli a {
@@ -267,7 +267,7 @@ export default {
 }
 
 
-body {
+/* body {
   background: #eff3f5;
-}
+} */
 </style>
