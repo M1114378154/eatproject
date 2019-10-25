@@ -24,6 +24,9 @@
 
 
 <style>
+.mint-cell {
+    background-color: #f2f2f2;
+    }
 .imglogo{
     margin-right: 100%;
     width: 50px;
