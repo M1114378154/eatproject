@@ -5,8 +5,12 @@ import App from './App'
 import router from './router'
 import MintUI from 'mint-ui'
 import 'mint-ui/lib/style.css'
+import { Search } from 'mint-ui';//搜索
+import { Cell } from 'mint-ui';//标题文字带链接（如：>更多）
 
-Vue.use(MintUI)
+Vue.component(Cell.name, Cell);//标题文字带链接（如：>更多）
+Vue.component(Search.name, Search);//搜索
+Vue.use(MintUI);
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

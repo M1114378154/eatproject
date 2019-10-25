@@ -44,6 +44,7 @@ export default {
 <style>
 * {
   box-sizing: border-box;
+  
 }
 
 input[type="text"],

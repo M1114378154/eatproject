@@ -5,6 +5,8 @@ import Log from '../views/Log.vue'
 import Register from '@/components/Register'
 
 import MyGroup from '@/components/Mygroup'
+import Category from '@/components/Category'
+import Gambit from '@/components/Gambit'
 
 
 
@@ -33,6 +35,15 @@ export default new Router({
       name: 'MyGroup',
       component: MyGroup
     },
-
+    {
+      path: '/category',
+      name: 'category',
+      component: Category
+    },
+    {
+      path: '/gambit',
+      name: 'gambit',
+      component: Gambit
+    },
   ]
 })

@@ -6,6 +6,8 @@
     <router-link to="/log">登录</router-link>|
     <router-link to="/register">注册</router-link>
     <router-link to="/Mygroup">我的</router-link>
+    <router-link to="/category">首页分类</router-link>
+    <router-link to="/gambit">好吃话题区</router-link>
     <router-view />
 
   </div>
