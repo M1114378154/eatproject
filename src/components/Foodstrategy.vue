@@ -2,13 +2,13 @@
   <div class="Foodstrategy">
     <div class="container">
       <ul class="gyul">
-        <li>
+        <li class="gyli">
           <a class="active" href="#home">寻找每日新菜馆</a>
         </li>
-        <li>
+        <li class="gyli">
           <a href="#news">网红人气菜</a>
         </li>
-        <li>
+        <li class="gyli">
           <a href="#contact">到店觅食</a>
         </li>
       </ul>
@@ -135,11 +135,11 @@ export default {
   text-align: center;
 }
 
-li {
+.gyli {
   float: left;
 }
 
-li a {
+.gyli a {
   display: block;
   color: #666;
   text-align: center;
@@ -147,11 +147,11 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
+.gyli a:hover:not(.active) {
   background-color: #ddd;
 }
 
-li a.active {
+.gyli a.active {
   color: white;
   background-color: skyblue;
 }

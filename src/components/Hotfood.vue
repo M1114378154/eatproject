@@ -13,17 +13,12 @@
         </li>
       </ul> -->
 
-      <ul class="hotul">
-        <li>
-          <a class="active" href="#home">推荐</a>
-        </li>
-        <li>
-          <a href="#news">分类</a>
-        </li>
-        <li>
-          <a href="#contact">视频</a>
-        </li>
-      </ul>
+  <ul class="hotul">
+  <li class="hotli"><a class="active" href="#home">推荐</a></li>
+  <li class="hotli"><a href="#news">分类</a></li>
+  <li class="hotli"><a href="#contact">视频</a></li>
+</ul>
+
 
       <div class="flex-container">
         <div class="flex-item">
@@ -174,25 +169,27 @@ export default {
     text-align: center;
 }
 
-li {
-  float: left;
+
+.hotli {
+    float: left;
 }
 
-li a {
-  display: block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+.hotli a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-li a:hover:not(.active) {
-  background-color: #ddd;
+.hotli a:hover:not(.active) {
+    background-color: #ddd;
 }
 
-li a.active {
-  color: white;
-  background-color: skyblue;
+.hotli a.active {
+    color: white;
+    background-color: skyblue;
+
 }
 
 .flex-container {

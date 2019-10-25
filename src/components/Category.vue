@@ -46,7 +46,7 @@
    
 
   <div class="flex-cate">
-        <div class="flex-item">
+        <div class="flex-cateitem">
           <a href>
             <img
               style="width: 100%; height: 200px; display: block;"
@@ -60,7 +60,7 @@
             <h3>新春菜式</h3>
           </div>
         </div>
-        <div class="flex-item">
+        <div class="flex-cateitem">
           <a href>
             <img
               style="width: 100%; height: 200px; display: block;"
@@ -74,7 +74,7 @@
             <h3>中西餐菜式</h3>
           </div>
         </div>
-        <div class="flex-item">
+        <div class="flex-cateitem">
           <a href>
             <img
               style="width: 100%; height: 200px; display: block;"
@@ -88,7 +88,7 @@
             <h3>中国风菜式</h3>
           </div>
         </div>
-        <div class="flex-item">
+        <div class="flex-cateitem">
           <a href>
             <img
               style="width: 100%; height: 200px; display: block;"
@@ -104,7 +104,7 @@
         </div>
       </div>
   <div class="flex-cate">
-        <div class="flex-item">
+        <div class="flex-cateitem">
           <a href>
             <img
               style="width: 100%; height: 200px; display: block;"
@@ -118,7 +118,7 @@
             <h3>家常菜式</h3>
           </div>
         </div>
-        <div class="flex-item">
+        <div class="flex-cateitem">
           <a href>
             <img
               style="width: 100%; height: 200px; display: block;"
@@ -132,7 +132,7 @@
             <h3>粤菜</h3>
           </div>
         </div>
-        <div class="flex-item">
+        <div class="flex-cateitem">
           <a href>
             <img
               style="width: 100%; height: 200px; display: block;"
@@ -146,7 +146,7 @@
             <h3>婚宴菜式</h3>
           </div>
         </div>
-        <div class="flex-item">
+        <div class="flex-cateitem">
           <a href>
             <img
               style="width: 100%; height: 200px; display: block;"
@@ -190,7 +190,7 @@ export default {
     margin-left: 16%;
 }
 
-.flex-item {
+.flex-cateitem {
   background-color: white;
   width: 400px;
   height: 250px;
