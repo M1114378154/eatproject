@@ -92,7 +92,7 @@ input[type="submit"]:hover {
 
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  /* background-color: #f2f2f2; */
   padding: 20px;
 }
 

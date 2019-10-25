@@ -103,7 +103,7 @@
   color: white;
 }
 
-body {
+/* body {
   background: #eff3f5;
-}
+} */
 </style>
