@@ -5,7 +5,12 @@ import App from './App'
 import router from './router'
 import MintUI from 'mint-ui'
 import 'mint-ui/lib/style.css'
+import Video from 'video.js'
+import 'video.js/dist/video-js.css'
 
+
+
+Vue.prototype.$video = Video
 import { Search } from 'mint-ui';//搜索
 import { Cell } from 'mint-ui';//标题文字带链接（如：>更多）
 

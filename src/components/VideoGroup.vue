@@ -19,10 +19,10 @@
     <center>
       <div class="test_two_box">
         <video id="myVideo" class="video-js">
-          <source src="http://vd4.bdstatic.com/mda-jj3gy8kqn808w85t/mda-jj3gy8kqn808w85t.mp4" type="video/mp4" />
+          <source src="//vjs.zencdn.net/v/oceans.mp4" type="video/mp4" />
         </video>
       </div>
-      <!-- //vjs.zencdn.net/v/oceans.mp4<video width="320" height="240" controls>
+      <!-- <video width="320" height="240" controls>
         <source src="http://vd3.bdstatic.com/mda-jitawrnfu68fne83/mda-jitawrnfu68fne83.mp4" type="video/mp4" />
       </video>-->
     </center>

@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="Hotfood">
-      <ul>
+      <!-- <ul>
         <li>
           <a class="active" href="#home">推荐</a>
         </li>
@@ -11,7 +11,7 @@
         <li>
           <a href="#contact">视频</a>
         </li>
-      </ul>
+      </ul> -->
 
       <ul class="hotul">
         <li>

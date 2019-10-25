@@ -2,15 +2,16 @@
   <div class="Mygroup">
     <div class="container">
       <h2>我的个人中心</h2>
-      <div class="CardGlobal">
-        <div class="card img-fluid">
-          <img
-            class="card-img-top"
-            src="https://static.runoob.com/images/mix/img_avatar.png"
-            alt="Card image"
-            style="width:20%"
-          />
-          <h3>用户</h3>
+
+      <div class="card img-fluid">
+        <img
+          class="card-img-top"
+          src="https://static.runoob.com/images/mix/img_avatar.png"
+          alt="Card image"
+          style="width:20%"
+        />
+        <h3>用户</h3>
+        <div class="CardGlobal">
           <div class="row">
             <span class="left">收藏</span>
             <a href="#" class="right">></a>
@@ -53,11 +54,11 @@ export default {
 
 
 <style>
-/* .CardGlobal .card{
+.CardGlobal .row{
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
-} */
+}
 .card {
   background-color: skyblue;
   margin: auto;
