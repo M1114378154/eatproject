@@ -5,6 +5,12 @@ import App from './App'
 import router from './router'
 import MintUI from 'mint-ui'
 import 'mint-ui/lib/style.css'
+import Video from 'video.js'
+import 'video.js/dist/video-js.css'
+
+
+
+Vue.prototype.$video = Video
 
 Vue.use(MintUI)
 Vue.config.productionTip = false

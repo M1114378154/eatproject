@@ -1,23 +1,31 @@
 <!--  -->
 <template>
   <div class="container">
-    <div>
-      <div class="top">
-        <center>
-          <ul>
-            <li>
-              <a href="#">推荐</a>
-            </li>
-            <li>
-              <a href="#">分类</a>
-            </li>
-            <li>
-              <a class="active" href="#">视频</a>
-            </li>
-          </ul>
-        </center>
-      </div>
+    <div class="top">
+      <center>
+        <ul>
+          <li>
+            <a href="#">推荐</a>
+          </li>
+          <li>
+            <a href="#">分类</a>
+          </li>
+          <li>
+            <a class="active" href="#">视频</a>
+          </li>
+        </ul>
+      </center>
     </div>
+    <center>
+      <div class="test_two_box">
+        <video id="myVideo" class="video-js">
+          <source src="http://vd4.bdstatic.com/mda-jj3gy8kqn808w85t/mda-jj3gy8kqn808w85t.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <!-- //vjs.zencdn.net/v/oceans.mp4<video width="320" height="240" controls>
+        <source src="http://vd3.bdstatic.com/mda-jitawrnfu68fne83/mda-jitawrnfu68fne83.mp4" type="video/mp4" />
+      </video>-->
+    </center>
   </div>
 </template>
 
@@ -26,13 +34,37 @@ export default {
   name: "VideoGroup",
   props: {
     msg: String
+  },
+
+  data() {
+    return {};
+  },
+  mounted() {
+    this.initVideo();
+  },
+  methods: {
+    initVideo() {
+      //初始化视频方法
+      let myPlayer = this.$video(myVideo, {
+        //确定播放器是否具有用户可以与之交互的控件。没有控件，启动视频播放的唯一方法是使用autoplay属性或通过Player API。
+        controls: true,
+        //自动播放属性,muted:静音播放
+        autoplay: "muted",
+        //建议浏览器是否应在<video>加载元素后立即开始下载视频数据。
+        preload: "auto",
+        //设置视频播放器的显示宽度（以像素为单位）
+        width: "800px",
+        //设置视频播放器的显示高度（以像素为单位）
+        height: "400px"
+      });
+    }
   }
 };
 </script>
 <style>
 /* @import url(); 引入css类 */
+/* 头部导航栏 */
 .top {
-
   margin-top: 1px; /*离顶部的距离为0*/
   margin-bottom: 5px;
   margin: 0%;
@@ -43,14 +75,14 @@ export default {
 .top ul {
   width: auto; /*宽度也改为自动*/
   list-style-type: none;
-  overflow: hidden;
-  padding: 0;
+  /* overflow: hidden; */
+  /* padding: 0; */
 }
 .top li {
   float: left; /* 使li内容横向浮动，即横向排列  */
   margin: 0 80px; /* 两个li之间的距离*/
   width: 150px;
-  height: 80px;
+  /* height: 80px; */
 }
 
 .top li a {
@@ -61,16 +93,23 @@ export default {
   padding: 3px;
   text-decoration: none; /* 去除下划线 */
   font-size: 190%;
-  /* height: 48px; */
 }
-.top li a.active{
-    background-color: skyblue;
+.top li a.active {
+  background-color: skyblue;
 }
 .top li a:hover {
   /* 鼠标选中时背景变为黑色 */
   background-color: #0099cc;
   color: white;
 }
+/* 头部导航栏 */
+/* 视频 */
+/* .container .test_two_box video {
+ 
+ 
+} */
+
+/* 视频 */
 
 /* .navtop {
   list-style-type: none;

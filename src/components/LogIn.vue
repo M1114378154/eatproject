@@ -1,30 +1,33 @@
 <template>
-<div class="Login">
-    <h1>好吃网</h1>
-    <form action="/action_page.php">
-    <label for="fname">账号</label>
-    <input type="text" id="fname" name="firstname" placeholder="手机号码/用户名">
+  <div class="container">
+    <div class="Login">
+      <h1>好吃网</h1>
+      <form action="/action_page.php">
+        <label for="fname">账号</label>
+        <input type="text" id="fname" name="firstname" placeholder="手机号码/用户名" />
 
-    <label for="lname">密码</label>
-    <input type="password" id="lname" name="lastname" placeholder="请输入密码">
+        <label for="lname">密码</label>
+        <input type="password" id="lname" name="lastname" placeholder="请输入密码" />
 
-   <input type="submit" value="登录">
-    <input type="submit2" value="注册">
-  </form>
+        <input type="submit" value="登录" />
+        <input type="submit2" value="注册" />
+      </form>
     </div>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'LogIn',
+  name: "LogIn",
   props: {
     msg: String
   }
-}
+};
 </script>
 
 <style>
-input[type=text], select {
+input[type="text"],
+select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -33,7 +36,8 @@ input[type=text], select {
   border-radius: 4px;
   box-sizing: border-box;
 }
-input[type=password], select {
+input[type="password"],
+select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -43,9 +47,9 @@ input[type=password], select {
   box-sizing: border-box;
 }
 
-input[type=submit] {
+input[type="submit"] {
   width: 100%;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -54,13 +58,13 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: #45a049;
 }
-input[type=submit2] {
+input[type="submit2"] {
   width: 100%;
   background-color: skyblue;
-  color: white;  
+  color: white;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
@@ -69,15 +73,14 @@ input[type=submit2] {
   text-align: center;
 }
 
-
-input[type=submit2]:hover {
-  background-color:skyblue;
+input[type="submit2"]:hover {
+  background-color: skyblue;
 }
 
 div {
   border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+  /* background-color: #f2f2f2; */
+  /* padding: 20px; */
 }
 </style>
 
