@@ -3,7 +3,7 @@
     <div class="container">
       <h2>我的个人中心</h2>
 
-      <div class="card img-fluid" >
+      <div class="card img-fluid">
         <img
           class="card-img-top"
           src="https://static.runoob.com/images/mix/img_avatar.png"
@@ -12,30 +12,30 @@
         />
         <h3>用户</h3>
         <div class="row">
-          <span>收藏</span>
+          <span class="left">收藏</span>
           <a href="#" class="right">></a>
         </div>
-        <br>
+        <br />
         <div class="row">
-          <span>关注</span>
+          <span class="left">关注</span>
           <a href="#" class="right">></a>
         </div>
-        <br>
+        <br />
         <div class="row">
-          <span>我的足迹</span>
+          <span class="left">我的足迹</span>
           <a href="#" class="right">></a>
         </div>
-        <br>
+        <br />
         <div class="row">
-          <span>设置</span>
+          <span class="left">设置</span>
           <a href="#" class="right">></a>
         </div>
-        <br>
+        <br />
         <div class="row">
-          <span>意见反馈</span>
+          <span class="left">意见反馈</span>
           <a href="#" class="right">></a>
         </div>
-        <br>
+        <br />
       </div>
     </div>
   </div>
@@ -53,16 +53,15 @@ export default {
 
 <style>
 .card {
-  background-color: cornflowerblue;
+  background-color: skyblue;
   margin: auto;
 }
-.card-body {
-  height: 10px;
-}
-.row span {
+
+.row .left {
   float: left;
 }
-.row .right{
-    float: right;
+.row .right {
+  float: right;
+  text-decoration: none;
 }
 </style>

@@ -3,10 +3,12 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Log from '../views/Log.vue'
 import Register from '@/components/Register'
-
 import MyGroup from '@/components/Mygroup'
-import Category from '@/components/Category'
-import Gambit from '@/components/Gambit'
+
+import VideoGroup from '@/components/VideoGroup'
+import Hotfood from '@/components/Hotfood'
+import Foodstrategy from '@/components/Foodstrategy'
+
 
 
 
@@ -19,31 +21,43 @@ export default new Router({
       name: 'HelloWorld',
       component: HelloWorld
     },
-
+    //登录
     {
       path: '/log',
       name: 'log',
       component: Log
     },
+    //注册账号
     {
       path: '/register',
       name: 'register',
       component: Register
     },
+    //我的个人中心
     {
       path: '/MyGroup',
       name: 'MyGroup',
       component: MyGroup
     },
+
+    //话题视频区
     {
-      path: '/category',
-      name: 'category',
-      component: Category
+      path: '/VideoGroup',
+      name: 'VideoGroup',
+      component: VideoGroup
     },
+      //热门好吃推荐
+      {
+        path: '/Hotfood',
+        name: 'Hotfood',
+        component: Hotfood
+      },
+        //美食攻略
     {
-      path: '/gambit',
-      name: 'gambit',
-      component: Gambit
+      path: '/Foodstrategy',
+      name: 'Foodstrategy',
+      component: Foodstrategy
     },
+
   ]
 })
