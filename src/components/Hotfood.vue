@@ -1,17 +1,7 @@
 <template>
   <div class="container">
     <div class="Hotfood">
-      <ul>
-        <li>
-          <a class="active" href="#home">推荐</a>
-        </li>
-        <li>
-          <a href="#news">分类</a>
-        </li>
-        <li>
-          <a href="#contact">视频</a>
-        </li>
-      </ul>
+    
 
   <ul class="hotul">
   <li class="hotli"><a class="active" href="#home">推荐</a></li>

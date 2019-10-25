@@ -2,8 +2,8 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
-    <ul>
-      <li>
+    <ul class="helloul">
+      <li class="helloli">
         <a
           href="https://vuejs.org"
           target="_blank"
@@ -12,7 +12,7 @@
           <mt-button>11</mt-button>
         </a>
       </li>
-      <li>
+      <li class="helloli">
         <a
           href="https://forum.vuejs.org"
           target="_blank"
@@ -20,7 +20,7 @@
          queen
         </a>
       </li>
-      <li>
+      <li class="helloli">
         <a
           href="https://chat.vuejs.org"
           target="_blank"
@@ -28,7 +28,7 @@
          team
         </a>
       </li>
-      <li>
+      <li class="helloli">
         <a
           href="https://twitter.com/vuejs"
           target="_blank"
@@ -37,7 +37,7 @@
         </a>
       </li>
       <br>
-      <li>
+      <li class="helloli">
         <a
           href="http://vuejs-templates.github.io/webpack/"
           target="_blank"
@@ -47,8 +47,8 @@
       </li>
     </ul>
     <h2>Ecosystem</h2>
-    <ul>
-      <li>
+    <ul class="helloul">
+      <li class="helloli">
         <a
           href="http://router.vuejs.org/"
           target="_blank"
@@ -56,7 +56,7 @@
           vue-router
         </a>
       </li>
-      <li>
+      <li class="helloli">
         <a
           href="http://vuex.vuejs.org/"
           target="_blank"
@@ -64,7 +64,7 @@
           vuex
         </a>
       </li>
-      <li>
+      <li class="helloli">
         <a
           href="http://vue-loader.vuejs.org/"
           target="_blank"
@@ -72,7 +72,7 @@
           vue-loader
         </a>
       </li>
-      <li>
+      <li class="helloli">
         <a
           href="https://github.com/vuejs/awesome-vue"
           target="_blank"
@@ -100,11 +100,11 @@ export default {
 h1, h2 {
   font-weight: normal;
 }
-ul {
+.helloul {
   list-style-type: none;
   padding: 0;
 }
-li {
+.helloli {
   display: inline-block;
   margin: 0 10px;
 }
