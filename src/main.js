@@ -12,8 +12,6 @@ import { Cell } from 'mint-ui';//标题文字带链接（如：>更多）
 
 
 Vue.prototype.$video = Video
-
-
 Vue.component(Cell.name, Cell);//标题文字带链接（如：>更多）
 Vue.component(Search.name, Search);//搜索
 Vue.use(MintUI);
