@@ -1,10 +1,10 @@
 <template>
-  <div class="Register">
-    <h1>注册好吃网</h1>
-    <div class="container">
+  <div class="container">
+    <div class="Register">
+      <h1>注册好吃网</h1>
+
       <form action="/action_page.php">
         <div class="row">
-
           <div class="col-25">
             <label for="fname">手机号/用户名</label>
           </div>
@@ -12,9 +12,8 @@
           <div class="col-75">
             <input type="text" id="fname" name="firstname" placeholder="手机号/用户名" />
           </div>
-
         </div>
-        
+
         <div class="row">
           <div class="col-25">
             <label for="lname">密码</label>
@@ -24,11 +23,11 @@
           </div>
         </div>
 
-  <div class="row">
-    <input type="Resubmit"  value="注册">
-  </div>
-  </form>
-  </div>
+        <div class="row">
+          <input type="Resubmit" value="注册" />
+        </div>
+      </form>
+    </div>
   </div>
 </template>
 
@@ -71,9 +70,8 @@ label {
   display: inline-block;
 }
 
-
-input[type=Resubmit] {
-  background-color: #4CAF50;
+input[type="Resubmit"] {
+  background-color: #4caf50;
 
   color: white;
   padding: 12px 20px;
