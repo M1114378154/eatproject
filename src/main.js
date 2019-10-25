@@ -10,7 +10,7 @@ import 'video.js/dist/video-js.css'
 
 
 
-Vue.prototype.$video = Video
+Vue.prototype.$video = Video;
 import { Search } from 'mint-ui';//搜索
 import { Cell } from 'mint-ui';//标题文字带链接（如：>更多）
 
