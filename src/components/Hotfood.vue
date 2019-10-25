@@ -2,9 +2,9 @@
   <div class="Hotfood">
 
   <ul class="hotul">
-  <li><a class="active" href="#home">推荐</a></li>
-  <li><a href="#news">分类</a></li>
-  <li><a href="#contact">视频</a></li>
+  <li class="hotli"><a class="active" href="#home">推荐</a></li>
+  <li class="hotli"><a href="#news">分类</a></li>
+  <li class="hotli"><a href="#contact">视频</a></li>
 </ul>
 
     <div class="row">
@@ -113,11 +113,11 @@ export default {
     text-align: center;
 }
 
-li {
+.hotli {
     float: left;
 }
 
-li a {
+.hotli a {
     display: block;
     color: #666;
     text-align: center;
@@ -125,11 +125,11 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+.hotli a:hover:not(.active) {
     background-color: #ddd;
 }
 
-li a.active {
+.hotli a.active {
     color: white;
     background-color: skyblue;
 }

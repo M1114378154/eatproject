@@ -80,7 +80,7 @@
   margin-right: 29.5%; /* 两个li之间的距离*/
   position: relative;
   overflow: hidden;
-  width: 300px;
+  width: 250px;
   height: 70px;
 }
 
