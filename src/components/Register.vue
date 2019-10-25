@@ -1,29 +1,29 @@
 <template>
-  <div class="container">
+  <div >
     <div class="Register">
       <h1>注册好吃网</h1>
 
       <form action="/action_page.php">
-        <div class="row">
+        <div class="rerow">
           <div class="col-25">
-            <label for="fname">手机号/用户名</label>
+            <label class="reg" for="fname">手机号/用户名</label>
           </div>
 
           <div class="col-75">
-            <input type="text" id="fname" name="firstname" placeholder="手机号/用户名" />
+            <input type="retext" id="fname" name="firstname" placeholder="手机号/用户名" />
           </div>
         </div>
 
-        <div class="row">
+        <div class="rerow">
           <div class="col-25">
-            <label for="lname">密码</label>
+            <label class="reg" for="lname">密码</label>
           </div>
           <div class="col-75">
             <input type="password" id="lname" name="lastname" placeholder="请输入密码" />
           </div>
         </div>
 
-        <div class="row">
+        <div class="rerow">
           <input type="Resubmit" value="注册" />
         </div>
       </form>
@@ -41,33 +41,36 @@ export default {
 </script>
 
 <style>
-* {
+/* .recontainer {
   box-sizing: border-box;
   
-}
+} */
 
-input[type="text"],
+input[type="retext"],
 select,
 textarea {
-  width: 100%;
+  width: 90%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
   resize: vertical;
+  /* margin-right: 50%; */
 }
 input[type="password"],
 select,
 textarea {
-  width: 100%;
+  width: 90%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
   resize: vertical;
+   /* margin-right: 50%; */
 }
 
-label {
+.reg {
   padding: 12px 12px 12px 0;
   display: inline-block;
+  margin-left: 50%;
 }
 
 input[type="Resubmit"] {
@@ -101,12 +104,12 @@ input[type="submit"]:hover {
 
 .col-75 {
   float: left;
-  width: 75%;
+  width: 50%;
   margin-top: 6px;
 }
 
 /* 清除浮动 */
-.row:after {
+.rerow:after {
   content: "";
   display: table;
   clear: both;
@@ -116,7 +119,7 @@ input[type="submit"]:hover {
 @media screen and (max-width: 600px) {
   .col-25,
   .col-75,
-  input[type="submit"] {
+  input[type="resubmit"] {
     width: 100%;
     margin-top: 0;
   }
