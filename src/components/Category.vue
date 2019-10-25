@@ -18,34 +18,150 @@
 
     <div class="left">
       <ul class="food">
-        <li>
+        <li class="foodli">
           <a class="active" href="#home">菜式</a>
         </li>
-        <li>
+        <li class="foodli">
           <a href="#news">食材</a>
         </li>
-        <li>
+        <li class="foodli">
           <a href="#contact">烘培</a>
         </li>
-        <li>
+        <li class="foodli">
           <a href="#about">甜品饮品</a>
         </li>
-        <li>
+        <li class="foodli">
           <a href="#about">外国美食</a>
         </li>
-        <li>
+        <li class="foodli">
           <a href="#about">口味</a>
         </li>
-        <li>
+        <li class="foodli">
           <a href="#about">家常菜</a>
         </li>
-        <li>
+        <li class="foodli">
           <a href="#about">主食小吃</a>
         </li>
       </ul>
-    </div>
+   
 
- 
+  <div class="flex-cate">
+        <div class="flex-item">
+          <a href>
+            <img
+              style="width: 100%; height: 200px; display: block;"
+              alt="100%x200"
+              src="http://photocdn.sohu.com/20070209/Img248153407.jpg"
+              data-src="holder.js/100%x200"
+              data-holder-rendered="true"
+            />
+          </a>
+          <div class="caption center">
+            <h3>新春菜式</h3>
+          </div>
+        </div>
+        <div class="flex-item">
+          <a href>
+            <img
+              style="width: 100%; height: 200px; display: block;"
+              alt="100%x200"
+              src="http://img.zcool.cn/community/012f60578ddd1a0000012e7e06cbbb.JPG"
+              data-src="holder.js/100%x200"
+              data-holder-rendered="true"
+            />
+          </a>
+          <div class="caption center">
+            <h3>中西餐菜式</h3>
+          </div>
+        </div>
+        <div class="flex-item">
+          <a href>
+            <img
+              style="width: 100%; height: 200px; display: block;"
+              alt="100%x200"
+              src="http://img.pconline.com.cn/images/photoblog/6/9/2/5/6925974/200812/10/1228890708849_mthumb.jpg"
+              data-src="holder.js/100%x200"
+              data-holder-rendered="true"
+            />
+          </a>
+          <div class="caption center">
+            <h3>中国风菜式</h3>
+          </div>
+        </div>
+        <div class="flex-item">
+          <a href>
+            <img
+              style="width: 100%; height: 200px; display: block;"
+              alt="100%x200"
+              src="http://img1.imgtn.bdimg.com/it/u=4030098086,2803938304&fm=214&gp=0.jpg"
+              data-src="holder.js/100%x200"
+              data-holder-rendered="true"
+            />
+          </a>
+          <div class="caption center">
+            <h3>国宴菜式</h3>
+          </div>
+        </div>
+      </div>
+  <div class="flex-cate">
+        <div class="flex-item">
+          <a href>
+            <img
+              style="width: 100%; height: 200px; display: block;"
+              alt="100%x200"
+              src="http://img1.qunarzz.com/travel/d6/1508/f7/93e0cf69d0f11.jpg"
+              data-src="holder.js/100%x200"
+              data-holder-rendered="true"
+            />
+          </a>
+          <div class="caption center">
+            <h3>家常菜式</h3>
+          </div>
+        </div>
+        <div class="flex-item">
+          <a href>
+            <img
+              style="width: 100%; height: 200px; display: block;"
+              alt="100%x200"
+              src="http://n.sinaimg.cn/sinacn/w800h599/20180112/a410-fyqnicm0195416.jpg"
+              data-src="holder.js/100%x200"
+              data-holder-rendered="true"
+            />
+          </a>
+          <div class="caption center">
+            <h3>粤菜</h3>
+          </div>
+        </div>
+        <div class="flex-item">
+          <a href>
+            <img
+              style="width: 100%; height: 200px; display: block;"
+              alt="100%x200"
+              src="http://n.sinaimg.cn/sinacn23/266/w1600h1066/20180529/6dff-hcffhsv2947870.jpg"
+              data-src="holder.js/100%x200"
+              data-holder-rendered="true"
+            />
+          </a>
+          <div class="caption center">
+            <h3>婚宴菜式</h3>
+          </div>
+        </div>
+        <div class="flex-item">
+          <a href>
+            <img
+              style="width: 100%; height: 200px; display: block;"
+              alt="100%x200"
+              src="http://p1.meituan.net/deal/3ac21b53d1d88f3712238967c2c84686199946.jpg"
+              data-src="holder.js/100%x200"
+              data-holder-rendered="true"
+            />
+          </a>
+          <div class="caption center">
+            <h3>东北菜式</h3>
+          </div>
+        </div>
+      </div>
+  </div>
 
 
   </div>
@@ -62,6 +178,24 @@ export default {
 
 <style>
 
+.flex-cate {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 70%;
+  height: 270px;
+  background-color: whitesmoke;
+  transform: translateY(-330px);
+    margin-left: 16%;
+}
+
+.flex-item {
+  background-color: white;
+  width: 400px;
+  height: 250px;
+  margin: 10px;
+}
 
 
 
@@ -73,7 +207,7 @@ export default {
   background-color: #f1f1f1;
 }
 
-li a {
+.foodli a {
   display: block;
   color: #000;
   padding: 8px 16px;
@@ -81,12 +215,12 @@ li a {
   font-size: 20px;
 }
 
-li a.active {
+.foodli a.active {
   background-color: skyblue;
   color: black;
 }
 
-li a:hover:not(.active) {
+.foodli a:hover:not(.active) {
   background-color: #0099cc;
   color: white;
 }
