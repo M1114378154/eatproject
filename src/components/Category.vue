@@ -45,10 +45,10 @@
       </ul>
     </div>
 
+ 
 
 
   </div>
-
 </template>
 
 <script>
@@ -61,6 +61,10 @@ export default {
 </script>
 
 <style>
+
+
+
+
 .food {
   list-style-type: none;
   margin: 0;
@@ -78,7 +82,7 @@ li a {
 }
 
 li a.active {
-  background-color: #33b5e5;
+  background-color: skyblue;
   color: black;
 }
 
@@ -88,31 +92,23 @@ li a:hover:not(.active) {
 }
 
 .top {
-  /* 设置宽度高度背景颜色 */
-  height: auto; /*高度改为自动高度*/
-  width: 150%;
-  margin-left: 23%;
-  /* background:rgb(189, 181, 181); */
-  /*固定在顶部*/
-  /* position: fixed;  */
+
   margin-top: 1px; /*离顶部的距离为0*/
   margin-bottom: 5px;
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  justify-content: center;
 }
 .top ul {
-  /* 清除ul标签的默认样式 */
   width: auto; /*宽度也改为自动*/
   list-style-type: none;
-  white-space: nowrap;
   overflow: hidden;
-  /* margin-left: 5%; */
-  /* margin-top: 0;          */
   padding: 0;
 }
 .top li {
   float: left; /* 使li内容横向浮动，即横向排列  */
-  margin-right: 10%; /* 两个li之间的距离*/
-  position: relative;
-  overflow: hidden;
+  margin: 0 80px; /* 两个li之间的距离*/
   width: 150px;
   height: 80px;
 }
@@ -123,10 +119,12 @@ li a:hover:not(.active) {
   color: black;
   text-align: center;
   padding: 3px;
-  overflow: hidden;
   text-decoration: none; /* 去除下划线 */
   font-size: 190%;
-  height: 48px;
+  /* height: 48px; */
+}
+.top li a.active{
+    background-color: skyblue;
 }
 .top li a:hover {
   /* 鼠标选中时背景变为黑色 */
@@ -134,8 +132,8 @@ li a:hover:not(.active) {
   color: white;
 }
 
+
 body {
   background: #eff3f5;
 }
-
 </style>
