@@ -1,7 +1,7 @@
 <template>
   <div class="Foodstrategy">
     <div class="container">
-      <ul>
+      <ul class="gyul">
         <li>
           <a class="active" href="#home">寻找每日新菜馆</a>
         </li>
@@ -125,7 +125,7 @@ export default {
 
 
 <style >
-ul {
+.gyul {
   list-style-type: none;
   margin: 0;
   padding: 0;

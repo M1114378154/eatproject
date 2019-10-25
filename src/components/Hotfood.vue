@@ -1,7 +1,7 @@
 <template>
   <div class="Hotfood">
 
-  <ul>
+  <ul class="hotul">
   <li><a class="active" href="#home">推荐</a></li>
   <li><a href="#news">分类</a></li>
   <li><a href="#contact">视频</a></li>
@@ -103,7 +103,7 @@ export default {
 </script>
 
  <style>
-ul {
+.hotul {
     list-style-type: none;
     margin: 0;
     padding: 0;
