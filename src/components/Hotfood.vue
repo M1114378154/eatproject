@@ -13,12 +13,17 @@
         </li>
       </ul>
 
-      <div class="row">
-        <p style="color: green;" align="left">热门食谱</p>
-        <p align="right">
-          <a href="#" style=" text-decoration: none;">发现更多></a>
-        </p>
-      </div>
+      <ul class="hotul">
+        <li>
+          <a class="active" href="#home">推荐</a>
+        </li>
+        <li>
+          <a href="#news">分类</a>
+        </li>
+        <li>
+          <a href="#contact">视频</a>
+        </li>
+      </ul>
 
       <div class="flex-container">
         <div class="flex-item">
@@ -158,14 +163,15 @@ export default {
 </script>
 
  <style>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  border: 1px solid #e7e7e7;
-  background-color: white;
-  text-align: center;
+
+.hotul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: white;
+    text-align: center;
 }
 
 li {

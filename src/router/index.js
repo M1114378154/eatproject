@@ -4,9 +4,12 @@ import HelloWorld from '@/components/HelloWorld'
 import Log from '../views/Log.vue'
 import Register from '@/components/Register'
 import MyGroup from '@/components/Mygroup'
+import Category from '@/components/Category'
+import Gambit from '@/components/Gambit'
 import VideoGroup from '@/components/VideoGroup'
 import Hotfood from '@/components/Hotfood'
 import Foodstrategy from '@/components/Foodstrategy'
+
 
 
 
@@ -37,6 +40,19 @@ export default new Router({
       name: 'MyGroup',
       component: MyGroup
     },
+    //首页分类
+    {
+      path: '/category',
+      name: 'category',
+      component: Category
+    },
+    //好吃话题区
+    {
+      path: '/gambit',
+      name: 'gambit',
+      component: Gambit
+    },
+
     //话题视频区
     {
       path: '/VideoGroup',
@@ -55,7 +71,6 @@ export default new Router({
       name: 'Foodstrategy',
       component: Foodstrategy
     },
-
 
   ]
 })
