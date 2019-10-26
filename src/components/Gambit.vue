@@ -11,80 +11,63 @@
           </li>
         </ul>
       </center>
-      <mt-search v-model="value" cancel-text="取消" placeholder="搜索"></mt-search>
-     <mt-cell title="#早餐" to="//baidu.com" is-link value="更多"></mt-cell>
-     <div>
-         <img class="imglogo" src="../assets/logo.png" alt="">
-          <span class="user">用户</span>
-     </div>
-     
     </div>
+    <!-- <center>
+      <mt-search v-model="value" cancel-text="取消" placeholder="搜索"></mt-search>
+      <mt-cell title="#早餐" to="//baidu.com" is-link value="更多"></mt-cell>
+      <div>
+        <img class="imglogo" src="../assets/logo.png" alt="" />
+        <span class="user">用户</span>
+      </div>
+    </center> -->
   </div>
 </template>
 
 
 <style>
-.mint-cell {
-    background-color: #f2f2f2;
-    }
-.imglogo{
-    margin-right: 100%;
-    width: 50px;
-    margin-top: 10px;
-    float: left;
+/* .mint-cell {
+  background-color: #f2f2f2;
 }
-.user{
-    margin-right: 90%;
-    /* float: right; */
+.imglogo {
+  margin-right: 100%;
+  width: 50px;
+  margin-top: 10px;
+  float: left;
 }
-
+.user {
+  margin-right: 90%;
+}
 
 .mint-searchbar {
   width: 70.5%;
 }
-.mint-cell{
-    text-align: left;
-    width: 70.5%;
-
+.mint-cell {
+  text-align: left;
+  width: 70.5%;
 }
-.mint-search{
-    height: 70px;
-}
-
-.gamli a.active {
-  background-color: skyblue;
-  color: black;
-}
-
+.mint-search {
+  height: 70px;
+} */
 
 .gamtop {
-  /* 设置宽度高度背景颜色 */
-  height: auto; /*高度改为自动高度*/
-  /* width: 150%; */
-  margin-left: 23%;
-  /* background:rgb(189, 181, 181); */
-  /*固定在顶部*/
-  /* position: fixed;  */
   margin-top: 1px; /*离顶部的距离为0*/
   margin-bottom: 5px;
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  justify-content: center;
 }
 .gamtop .gamul {
-  /* 清除ul标签的默认样式 */
   width: auto; /*宽度也改为自动*/
   list-style-type: none;
-  white-space: nowrap;
   overflow: hidden;
-  /* margin-left: 5%; */
-  /* margin-top: 0;          */
   padding: 0;
 }
 .gamtop .gamli {
   float: left; /* 使li内容横向浮动，即横向排列  */
-  margin-right: 29.5%; /* 两个li之间的距离*/
-  position: relative;
-  overflow: hidden;
-  width: 250px;
-  height: 70px;
+  margin: 0 80px; /* 两个li之间的距离*/
+  width: 200px;
+  height: 80px;
 }
 
 .gamtop .gamli a {
@@ -92,13 +75,13 @@
   display: block; /* 把链接显示为块元素可使整个链接区域可点击 */
   color: black;
   text-align: center;
-  padding: 15px;
-  overflow: hidden;
+  padding: 3px;
   text-decoration: none; /* 去除下划线 */
   font-size: 190%;
-  height: 48px;
-  /* width: 300px; */
-  
+}
+.gamli a.active {
+  background-color: skyblue;
+  color: black;
 }
 .gamtop .gamli a:hover {
   /* 鼠标选中时背景变为黑色 */
