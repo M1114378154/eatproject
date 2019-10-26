@@ -12,42 +12,60 @@
         </ul>
       </center>
     </div>
-    <!-- <center>
-      <mt-search v-model="value" cancel-text="取消" placeholder="搜索"></mt-search>
-      <mt-cell title="#早餐" to="//baidu.com" is-link value="更多"></mt-cell>
-      <div>
-        <img class="imglogo" src="../assets/logo.png" alt="" />
-        <span class="user">用户</span>
-      </div>
-    </center> -->
+   <div class="gamsearch">
+            <input class="gaminput" type="text" placeholder="请输入..." name="" id="" value="" />
+            <button ><i>搜索</i></button>
+           
+        </div>
+        <div>
+            <mt-cell title="#早餐" to="//baidu.com" is-link value="更多"></mt-cell>
+        </div>
+       
   </div>
 </template>
 
 
 <style>
-/* .mint-cell {
+ .mint-cell {
   background-color: #f2f2f2;
-}
-.imglogo {
-  margin-right: 100%;
-  width: 50px;
-  margin-top: 10px;
-  float: left;
-}
-.user {
-  margin-right: 90%;
+    text-align: left;
+  width: 60%;
+  transform: translateY(-210px);
+  margin-left: 20%;
 }
 
-.mint-searchbar {
-  width: 70.5%;
-}
-.mint-cell {
-  text-align: left;
-  width: 70.5%;
-}
-.mint-search {
-  height: 70px;
-} */
+.gamsearch{
+            width: 60%;            
+            margin: 100px auto;
+            display: flex;
+            /*border: 1px solid red;*/
+            transform: translateY(-125px);
+        }
+        .gamsearch .gaminput{
+            float: left;
+            flex: 4;
+            height: 40px;
+            outline: none;
+            border: 2px solid skyblue;
+            box-sizing: border-box;
+            padding-left: 10px;
+        }
+        .gamsearch button{
+            float: right;
+            flex: 1;
+            height: 40px;
+            background-color: skyblue;
+            color: white;
+            border-style: none;
+            outline: none;
+        }
+        .gamsearch button i{
+            font-style: normal;
+        }
+        .gamsearch button:hover{
+            font-size: 16px;
+        }
+
 
 .gamtop {
   margin-top: 1px; /*离顶部的距离为0*/
