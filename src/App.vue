@@ -8,7 +8,7 @@
     <router-link to="/register">注册</router-link>
     <router-link to="/Mygroup">我的</router-link>
     <router-link to="/category">首页分类</router-link>
-    <router-link to="/gam">好吃话题区</router-link>
+    <router-link to="/gambit">好吃话题区</router-link>
     <router-link to="/VideoGroup">视频专区</router-link>
     <router-link to="/Hotfood">热门好吃推荐</router-link>
     <router-link to="/Foodstrategy">美食攻略</router-link>
