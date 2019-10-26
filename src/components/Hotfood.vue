@@ -7,83 +7,83 @@
   <li class="hotli"><a href="#news">分类</a></li>
   <li class="hotli"><a href="#contact">视频</a></li>
 </ul>
+<!-- 轮播图 -->
 
+       <div class="flex-container-1">
+        <div class="flex-item-1">
+          <a href>
+            <img
+              style="width: 100%; height: 200px; display: block;"
+              alt="100%x200"
+              src="https://goss.cfp.cn/creative/vcg/800/version23/VCG41481148194.jpg"
+            />
+          </a>
+          <div class="caption center">
+            <h3>披萨</h3>
+            <p>
+              <span>价格:</span>
+              <span>100.00</span>
+            </p>
+          </div>
+        </div>
+        <div class="flex-item-1">
+          <a href>
+            <img
+              style="width: 100%; height: 200px; display: block;"
+              alt="100%x200"
+              src="https://goss.cfp.cn/creative/vcg/800/version23/VCG41481148194.jpg"
+            />
+          </a>
+          <div class="caption center">
+            <h3>披萨</h3>
+            <p>
+              <span>价格:</span>
+              <span>100.00</span>
+            </p>
+          </div>
+        </div>
+        <div class="flex-item-1">
+          <a href>
+            <img
+              style="width: 100%; height: 200px; display: block;"
+              alt="100%x200"
+              src="https://goss.cfp.cn/creative/vcg/800/version23/VCG41481148194.jpg"
+            />
+          </a>
+          <div class="caption center">
+            <h3>披萨</h3>
+            <p>
+              <span>价格:</span>
+              <span>100.00</span>
+            </p>
+          </div>
+        </div>
+        <div class="flex-item-1">
+          <a href>
+            <img
+              style="width: 100%; height: 200px; display: block;"
+              alt="100%x200"
+              src="https://goss.cfp.cn/creative/vcg/800/version23/VCG41481148194.jpg"
+            />
+          </a>
+          <div class="caption center">
+            <h3>披萨</h3>
+            <p>
+              <span>价格:</span>
+              <span>100.00</span>
+            </p>
+          </div>
+        </div>
+      </div> -->
 
-      <div class="flex-container">
-        <div class="flex-item">
-          <a href>
-            <img
-              style="width: 100%; height: 200px; display: block;"
-              alt="100%x200"
-              src="https://goss.cfp.cn/creative/vcg/800/version23/VCG41481148194.jpg"
-            />
-          </a>
-          <div class="caption center">
-            <h3>披萨</h3>
-            <p>
-              <span>价格:</span>
-              <span>100.00</span>
-            </p>
-          </div>
-        </div>
-        <div class="flex-item">
-          <a href>
-            <img
-              style="width: 100%; height: 200px; display: block;"
-              alt="100%x200"
-              src="https://goss.cfp.cn/creative/vcg/800/version23/VCG41481148194.jpg"
-            />
-          </a>
-          <div class="caption center">
-            <h3>披萨</h3>
-            <p>
-              <span>价格:</span>
-              <span>100.00</span>
-            </p>
-          </div>
-        </div>
-        <div class="flex-item">
-          <a href>
-            <img
-              style="width: 100%; height: 200px; display: block;"
-              alt="100%x200"
-              src="https://goss.cfp.cn/creative/vcg/800/version23/VCG41481148194.jpg"
-            />
-          </a>
-          <div class="caption center">
-            <h3>披萨</h3>
-            <p>
-              <span>价格:</span>
-              <span>100.00</span>
-            </p>
-          </div>
-        </div>
-        <div class="flex-item">
-          <a href>
-            <img
-              style="width: 100%; height: 200px; display: block;"
-              alt="100%x200"
-              src="https://goss.cfp.cn/creative/vcg/800/version23/VCG41481148194.jpg"
-            />
-          </a>
-          <div class="caption center">
-            <h3>披萨</h3>
-            <p>
-              <span>价格:</span>
-              <span>100.00</span>
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
+       <div class="row">
         <p style="color: green;" align="left">热门美食到店</p>
         <p align="right">
           <a href="#" style=" text-decoration: none;">发现更多></a>
         </p>
       </div>
-      <div class="flex-container">
-        <div class="flex-item">
+      <div class="flex-container-1">
+        <div class="flex-item-1">
           <a href>
             <img
               style="width: 100%; height: 200px; display: block;"
@@ -95,7 +95,7 @@
             <h3>Queen女王店</h3>
           </div>
         </div>
-        <div class="flex-item">
+        <div class="flex-item-1">
           <a href>
             <img
               style="width: 100%; height: 200px; display: block;"
@@ -107,7 +107,7 @@
             <h3>Queen女王店</h3>
           </div>
         </div>
-        <div class="flex-item">
+        <div class="flex-item-1">
           <a href>
             <img
               style="width: 100%; height: 200px; display: block;"
@@ -119,7 +119,7 @@
             <h3>Queen女王店</h3>
           </div>
         </div>
-        <div class="flex-item">
+        <div class="flex-item-1">
           <a href>
             <img
               style="width: 100%; height: 200px; display: block;"
@@ -132,7 +132,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> 
   </div>
 </template>
 
@@ -145,6 +145,7 @@ export default {
   }
 };
 </script>
+
 
  <style>
 
@@ -181,7 +182,8 @@ export default {
 
 }
 
-.flex-container {
+
+.flex-container-1 {
   display: -webkit-flex;
   display: flex;
   align-content: center;
@@ -190,10 +192,11 @@ export default {
   background-color: lavender;
 }
 
-.flex-item {
+.flex-item-1 {
   background-color: skyblue;
   width: 400px;
   height: 250px;
   margin: 10px;
-}
+} 
+
 </style>

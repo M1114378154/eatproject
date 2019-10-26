@@ -1,6 +1,6 @@
 <template>
 <div class="">
-  <div class="top">
+  <div class="top-1">
       <center>
         <ul>        
           <li>
@@ -45,8 +45,8 @@
     </div>
   </div>
 <!-- 美食达人 -->
-  <div class="flex-container">
-  <div class="flex-item">
+  <div class="flex-container-2">
+  <div class="flex-item-2">
  <a href="">
  <img style="width:450px; height: 300px; display: block;" alt="100%x200" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1572065597597&di=95126bf9637f8d04480d7b15ec78d3fa&imgtype=jpg&src=http%3A%2F%2Fimg3.imgtn.bdimg.com%2Fit%2Fu%3D2040167898%2C2538321870%26fm%3D214%26gp%3D0.jpg" data-src="holder.js/100%x200" data-holder-rendered="true">
 </a>
@@ -55,7 +55,7 @@
 </div>
 </div>
 
-  <div class="flex-item">
+  <div class="flex-item-2">
  <a href="">
  <img style="width:450px; height: 300px; display: block;" alt="100%x200" src="http://www.53jianzhi.net/zq/uploads/allimg/170728/1-1FHQJFMY.jpg" data-src="holder.js/100%x200" data-holder-rendered="true">
 </a>
@@ -63,7 +63,7 @@
     <h3>好吃问卷调查</h3>
 </div>
   </div>
-  <div class="flex-item">
+  <div class="flex-item-2">
   <a href="">
  <img style="width:450px; height: 300px; display: block;" alt="100%x200" src="http://i2.chuimg.com/f3bc0a0532a6432e831ac714cd452304_1280w_960h.jpg?imageView2/2/w/600/interlace/1/q/90" data-src="holder.js/100%x200" data-holder-rendered="true">
 </a>
@@ -72,7 +72,7 @@
 </div>     
       
 </div>  
- <div class="flex-item">
+ <div class="flex-item-2">
  <a href="">
  <img style="width:450px; height: 300px; display: block;" alt="100%x200" src="http://img0.imgtn.bdimg.com/it/u=1268474689,156561479&fm=26&gp=0.jpg" data-src="holder.js/100%x200" data-holder-rendered="true">
 </a>
@@ -193,7 +193,7 @@ export default {
 
 <style>
 
-.top {
+.top-1 {
 
   margin-top: 1px; /*离顶部的距离为0*/
   margin-bottom: 5px;
@@ -202,20 +202,20 @@ export default {
   display: flex;
   justify-content: center;
 }
-.top ul {
+.top-1  ul {
   width: auto; /*宽度也改为自动*/
   list-style-type: none;
   overflow: hidden;
   padding: 0;
 }
-.top li {
+.top-1  li {
   float: left; /* 使li内容横向浮动，即横向排列  */
   margin: 0 100px; /* 两个li之间的距离*/
   width: 150px;
   height: 100px;
 }
 
-.top li a {
+.top-1  li a {
   /* 设置链接内容显示的格式*/
   display: block; /* 把链接显示为块元素可使整个链接区域可点击 */
   color: black;
@@ -225,10 +225,10 @@ export default {
   font-size: 160%;
   /* height: 48px; */
 }
-.top li a.active{
+.top-1  li a.active{
     background-color: skyblue;
 }
-.top li a:hover {
+.top-1  li a:hover {
   /* 鼠标选中时背景变为黑色 */
   background-color: #0099cc;
   color: white;
@@ -301,7 +301,7 @@ export default {
       }
 
 
-.flex-container {
+.flex-container-2 {
     display: -webkit-flex;
     display: flex;
     -webkit-flex-wrap: wrap;
@@ -312,7 +312,7 @@ export default {
     background-color: white;
 }
 
-.flex-item {
+.flex-item-2 {
     background-color:white;
     width: 300px;
     height: 250px;
