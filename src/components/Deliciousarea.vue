@@ -23,10 +23,10 @@
      <div class="window" @mouseover="stop" @mouseleave="play">
       <ul class="container" :style="containerStyle">
         <li>
-          <img :style="{width:imgWidth+'px'}" :src="sliders[sliders.length - 1].img" alt="">
+          <img :style="{width:'1220px',height:'300px'}" :src="sliders[sliders.length - 1].img" alt="">
         </li>
         <li  v-for="(item, index) in sliders" :key="index">
-          <img :style="{width:imgWidth+'px'}" :src="item.img" alt="">
+          <img :style="{width:'1220px',height:'300px'}" :src="item.img" alt="">
         </li>
         <li>
           <img :style="{width:imgWidth+'px'}" :src="sliders[0].img" alt="">
@@ -254,10 +254,11 @@ export default {
       #slider{
         text-align: center;
       }
+      /* 轮播图的盒子横宽高 */
       .window{
         position:relative;
-        width:600px;
-        height:400px;
+        width:100%;
+        height:300px;
         margin:0 auto;
         overflow:hidden;
       }
@@ -287,6 +288,7 @@ export default {
       }
       img{
         user-select: none;
+        width:100%
       }
       .dots{
           position:absolute;
