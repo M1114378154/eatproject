@@ -2,13 +2,23 @@
   <div class="container">
     <div class="Hotfood">
 
-  <ul class="hotul">
+   <ul class="hotul">
   <li class="hotli"><a class="active" href="#home">推荐</a></li>
   <li class="hotli"><a href="#news">分类</a></li>
   <li class="hotli"><a href="#contact">视频</a></li>
-</ul>
+</ul> 
+ <div class="gamsearch-1">
+            <input class="gaminput" type="text" placeholder="搜索好吃食谱" name="" id="" value="" />
+            <button ><i>搜索</i></button>
+            </div>
 <!-- 轮播图 -->
 
+    <div class="row">
+        <p style="color: green;" align="left">热门食谱</p>
+        <p align="right">
+          <a href="#" style=" text-decoration: none;">发现更多></a>
+        </p>
+      </div>
        <div class="flex-container-1">
         <div class="flex-item-1">
           <a href>
@@ -58,23 +68,8 @@
             </p>
           </div>
         </div>
-        <div class="flex-item-1">
-          <a href>
-            <img
-              style="width: 100%; height: 200px; display: block;"
-              alt="100%x200"
-              src="https://goss.cfp.cn/creative/vcg/800/version23/VCG41481148194.jpg"
-            />
-          </a>
-          <div class="caption center">
-            <h3>披萨</h3>
-            <p>
-              <span>价格:</span>
-              <span>100.00</span>
-            </p>
-          </div>
         </div>
-      </div> -->
+      </div>
 
        <div class="row">
         <p style="color: green;" align="left">热门美食到店</p>
@@ -119,21 +114,8 @@
             <h3>Queen女王店</h3>
           </div>
         </div>
-        <div class="flex-item-1">
-          <a href>
-            <img
-              style="width: 100%; height: 200px; display: block;"
-              alt="100%x200"
-              src="http://pic1.win4000.com/wallpaper/b/5438c7252ad24.jpg"
-            />
-          </a>
-          <div class="caption center">
-            <h3>Queen女王店</h3>
-          </div>
-        </div>
       </div>
     </div> 
-  </div>
 </template>
 
 
@@ -159,7 +141,6 @@ export default {
     text-align: center;
 }
 
-
 .hotli {
     float: left;
 }
@@ -170,6 +151,7 @@ export default {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+
 }
 
 .hotli a:hover:not(.active) {
@@ -188,7 +170,7 @@ export default {
   display: flex;
   align-content: center;
   width: 100%;
-  height: 300px;
+  height: 310px;
   background-color: lavender;
 }
 
@@ -196,7 +178,40 @@ export default {
   background-color: skyblue;
   width: 400px;
   height: 250px;
-  margin: 10px;
+  margin: 20px;
 } 
+
+.gamsearch-1{
+            /* width: 100%;             */
+            margin: 10px;
+            display: flex;
+            /*border: 1px solid red;*/
+            transform: translateY(-6px);
+        }
+        .gamsearch-1 .gaminput{
+            float: left;
+            flex: 4;
+            height: 40px;
+            outline: none;
+            border: 2px solid skyblue;
+            box-sizing: border-box;
+            padding-left: 10px;
+        }
+        .gamsearch-1 button{
+            float: right;
+            flex: 1;
+            height: 40px;
+            background-color: skyblue;
+            color: white;
+            border-style: none;
+            outline: none;
+        }
+        .gamsearch-1 button i{
+            font-style: normal;
+        }
+        .gamsearch-1 button:hover{
+            font-size: 16px;
+        }
+
 
 </style>

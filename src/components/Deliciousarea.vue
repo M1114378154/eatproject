@@ -13,6 +13,11 @@
       </center>
     </div>
 
+ <div class="gamsearch-3">
+            <input class="gaminput" type="text" placeholder="搜索活动" name="" id="" value="" />
+            <button ><i>搜索</i></button>
+            </div>
+
 <!-- 轮播图 -->
  	  <div id="slider">
      <div class="window" @mouseover="stop" @mouseleave="play">
@@ -111,6 +116,9 @@ export default {
           img:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1572061894398&di=c716753c1916f7bb18be7d05f953913e&imgtype=0&src=http%3A%2F%2Fimg.pconline.com.cn%2Fimages%2Fupload%2Fupc%2Ftx%2Fphotoblog%2F1406%2F20%2Fc2%2F35489246_1403250875219_mthumb.jpg'
         },
         {
+          img:'https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2624782965,1558496564&fm=26&gp=0.jpg'
+        },
+         {
           img:'https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2624782965,1558496564&fm=26&gp=0.jpg'
         },
       ],
@@ -320,4 +328,35 @@ export default {
     margin:150px;
 }
 
+.gamsearch-3{
+            width: 45%;
+          margin:-2px auto;;
+            display: flex;
+            /*border: 1px solid red;*/
+            transform: translateY(-6px);
+        }
+        .gamsearch-3 .gaminput{
+            float: left;
+            flex: 4;
+            height: 40px;
+            outline: none;
+            border: 2px solid skyblue;
+            box-sizing: border-box;
+            padding-left: 10px;
+        }
+        .gamsearch-3 button{
+            float: right;
+            flex: 1;
+            height: 40px;
+            background-color: skyblue;
+            color: white;
+            border-style: none;
+            outline: none;
+        }
+        .gamsearch-3 button i{
+            font-style: normal;
+        }
+        .gamsearch-3 button:hover{
+            font-size: 16px;
+        }
 </style>
