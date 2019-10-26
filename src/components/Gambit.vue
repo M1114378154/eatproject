@@ -13,8 +13,8 @@
       </center>
     </div>
    <div class="gamsearch">
-            <input type="text" placeholder="请输入..." name="" id="" value="" />
-            <button><i>搜索</i></button>
+            <input class="gaminput" type="text" placeholder="请输入..." name="" id="" value="" />
+            <button ><i>搜索</i></button>
            
         </div>
         <div>
@@ -41,7 +41,7 @@
             /*border: 1px solid red;*/
             transform: translateY(-125px);
         }
-        .gamsearch input{
+        .gamsearch .gaminput{
             float: left;
             flex: 4;
             height: 40px;
