@@ -9,6 +9,7 @@ import Gambit from '@/components/Gambit'
 import VideoGroup from '@/components/VideoGroup'
 import Hotfood from '@/components/Hotfood'
 import Foodstrategy from '@/components/Foodstrategy'
+import Deliciousarea from '@/components/Deliciousarea'
 
 
 
@@ -72,5 +73,12 @@ export default new Router({
       component: Foodstrategy
     },
 
+      //好吃活动区
+    {
+      path: '/Deliciousarea',
+      name: 'Deliciousarea',
+      component: Deliciousarea
+    },
+    
   ]
 })
