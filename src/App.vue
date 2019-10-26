@@ -12,6 +12,7 @@
     <router-link to="/VideoGroup">视频专区</router-link>
     <router-link to="/Hotfood">热门好吃推荐</router-link>
     <router-link to="/Foodstrategy">美食攻略</router-link>
+     <router-link to="/Deliciousarea">好吃活动区</router-link>
 
     <router-view />
   </div>
