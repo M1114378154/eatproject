@@ -46,38 +46,25 @@
    
 
   <div class="flex-cate">
-        <div class="flex-cateitem">
+         <div class="flex-cateitem">
           <a href>
             <img
-              style="width: 100%; height: 200px; display: block;"
+              style="width: 100%; height: 240px; display: block;"
               alt="100%x200"
-              src="http://photocdn.sohu.com/20070209/Img248153407.jpg"
+              src="http://n.sinaimg.cn/sinacn23/266/w1600h1066/20180529/6dff-hcffhsv2947870.jpg"
               data-src="holder.js/100%x200"
               data-holder-rendered="true"
             />
           </a>
           <div class="caption center">
-            <h3>新春菜式</h3>
+            <h3>婚宴菜式</h3>
           </div>
         </div>
+       
         <div class="flex-cateitem">
           <a href>
             <img
-              style="width: 100%; height: 200px; display: block;"
-              alt="100%x200"
-              src="http://img.zcool.cn/community/012f60578ddd1a0000012e7e06cbbb.JPG"
-              data-src="holder.js/100%x200"
-              data-holder-rendered="true"
-            />
-          </a>
-          <div class="caption center">
-            <h3>中西餐菜式</h3>
-          </div>
-        </div>
-        <div class="flex-cateitem">
-          <a href>
-            <img
-              style="width: 100%; height: 200px; display: block;"
+              style="width: 100%; height: 240px; display: block;"
               alt="100%x200"
               src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1572019290900&di=0972b35f04e89b7bc29f69541648be15&imgtype=0&src=http%3A%2F%2Fdpic.tiankong.com%2Fhm%2F1z%2FQJ8112224617.jpg"
               data-src="holder.js/100%x200"
@@ -91,7 +78,7 @@
         <div class="flex-cateitem">
           <a href>
             <img
-              style="width: 100%; height: 200px; display: block;"
+              style="width: 100%; height: 240px; display: block;"
               alt="100%x200"
               src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1572019360084&di=d5ef88347b34978302b5db3a590c7adb&imgtype=0&src=http%3A%2F%2Fwww.chushijob.com%2Fuploads%2Fallimg%2F180413%2F22060B608-5.jpg"
               data-src="holder.js/100%x200"
@@ -103,11 +90,11 @@
           </div>
         </div>
       </div>
-  <div class="flex-cate">
+  <div class="flex-cate2">
         <div class="flex-cateitem">
           <a href>
             <img
-              style="width: 100%; height: 200px; display: block;"
+              style="width: 100%; height: 240px; display: block;"
               alt="100%x200"
               src="http://img1.qunarzz.com/travel/d6/1508/f7/93e0cf69d0f11.jpg"
               data-src="holder.js/100%x200"
@@ -121,7 +108,7 @@
         <div class="flex-cateitem">
           <a href>
             <img
-              style="width: 100%; height: 200px; display: block;"
+              style="width: 100%; height: 240px; display: block;"
               alt="100%x200"
               src="http://n.sinaimg.cn/sinacn/w800h599/20180112/a410-fyqnicm0195416.jpg"
               data-src="holder.js/100%x200"
@@ -132,24 +119,11 @@
             <h3>粤菜</h3>
           </div>
         </div>
+       
         <div class="flex-cateitem">
           <a href>
             <img
-              style="width: 100%; height: 200px; display: block;"
-              alt="100%x200"
-              src="http://n.sinaimg.cn/sinacn23/266/w1600h1066/20180529/6dff-hcffhsv2947870.jpg"
-              data-src="holder.js/100%x200"
-              data-holder-rendered="true"
-            />
-          </a>
-          <div class="caption center">
-            <h3>婚宴菜式</h3>
-          </div>
-        </div>
-        <div class="flex-cateitem">
-          <a href>
-            <img
-              style="width: 100%; height: 200px; display: block;"
+              style="width: 100%; height: 240px; display: block;"
               alt="100%x200"
               src="http://p1.meituan.net/deal/3ac21b53d1d88f3712238967c2c84686199946.jpg"
               data-src="holder.js/100%x200"
@@ -185,8 +159,19 @@ export default {
   justify-content: center;
   width: 70%;
   height: 270px;
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
   transform: translateY(-330px);
+    margin-left: 16%;
+}
+.flex-cate2 {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 70%;
+  height: 270px;
+  /* background-color: whitesmoke; */
+  transform: translateY(-290px);
     margin-left: 16%;
 }
 
