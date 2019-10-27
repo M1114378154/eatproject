@@ -104,7 +104,7 @@
           </div>         
            </div>  
             <div class="gamhp">
-            <mt-cell title="#完餐" to="//baidu.com" is-link value="更多"></mt-cell>
+            <mt-cell title="#晚餐" to="//baidu.com" is-link value="更多"></mt-cell>
         </div>
   </div>
 </template>
