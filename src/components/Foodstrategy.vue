@@ -1,6 +1,6 @@
 <template>
   <div class="Foodstrategy">
-    <div class="container">
+    <div class="container1">
       <ul class="gyul">
         <li class="gyli">
           <a class="active" href="#home">寻找每日新菜馆</a>
@@ -12,9 +12,13 @@
           <a href="#contact">到店觅食</a>
         </li>
       </ul>
+ <div class="gamsearch-2">
+            <input class="gaminput" type="text" placeholder="搜索新菜馆" name="" id="" value="" />
+            <button ><i>搜索</i></button>
+            </div>
 
-      <div class="flex-container">
-        <div class="flex-item">
+      <div class="flex-container-3">
+        <div class="flex-item-3">
           <a href>
             <img
               style="width: 100%; height: 200px; display: block;"
@@ -24,11 +28,11 @@
               data-holder-rendered="true"
             />
           </a>
-          <div class="caption center">
+          <div class="caption center-3">
             <h3>早餐</h3>
           </div>
         </div>
-        <div class="flex-item">
+        <div class="flex-item-3">
           <a href>
             <img
               style="width: 100%; height: 200px; display: block;"
@@ -38,11 +42,11 @@
               data-holder-rendered="true"
             />
           </a>
-          <div class="caption center">
+          <div class="caption center-3">
             <h3>午餐</h3>
           </div>
         </div>
-        <div class="flex-item">
+        <div class="flex-item-3">
           <a href>
             <img
               style="width: 100%; height: 200px; display: block;"
@@ -52,7 +56,7 @@
               data-holder-rendered="true"
             />
           </a>
-          <div class="caption center">
+          <div class="caption center-3">
             <h3>晚餐</h3>
           </div>
         </div>
@@ -62,7 +66,7 @@
         <br />
         <div class="thumbnail">
           <h3>酥烂脱骨的红烧羊排，吃完唇齿留香</h3>
-          <a href="BookInfo.html">
+          <a href="">
             <img
               style="width: 100%; height: 450px; display: block;"
               alt="100%x200"
@@ -71,7 +75,7 @@
               data-holder-rendered="true"
             />
           </a>
-          <div class="caption center">
+          <div class="caption center-2">
             <p style="align-content: center;">
               <a
                 class="btn btn-primary btn-block"
@@ -97,7 +101,7 @@
               data-holder-rendered="true"
             />
           </a>
-          <div class="caption center">
+          <div class="caption center-2">
             <p style="align-content: center;">
               <a
                 class="btn btn-primary btn-block"
@@ -156,7 +160,7 @@ export default {
   background-color: skyblue;
 }
 
-.flex-container {
+.flex-container-3 {
   display: -webkit-flex;
   display: flex;
   -webkit-justify-content: center;
@@ -166,10 +170,42 @@ export default {
   background-color: whitesmoke;
 }
 
-.flex-item {
+.flex-item-3 {
   background-color: white;
   width: 400px;
   height: 250px;
   margin: 10px;
 }
+
+.gamsearch-2{
+            /* width: 100%;             */
+            margin: 10px;
+            display: flex;
+            /*border: 1px solid red;*/
+            transform: translateY(-6px);
+        }
+        .gamsearch-2 .gaminput{
+            float: left;
+            flex: 4;
+            height: 40px;
+            outline: none;
+            border: 2px solid skyblue;
+            box-sizing: border-box;
+            padding-left: 10px;
+        }
+        .gamsearch-2 button{
+            float: right;
+            flex: 1;
+            height: 40px;
+            background-color: skyblue;
+            color: white;
+            border-style: none;
+            outline: none;
+        }
+        .gamsearch-2 button i{
+            font-style: normal;
+        }
+        .gamsearch-2 button:hover{
+            font-size: 16px;
+        }
 </style>

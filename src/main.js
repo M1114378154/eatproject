@@ -10,9 +10,14 @@ import 'video.js/dist/video-js.css'
 import { Cell } from 'mint-ui';//标题文字带链接（如：>更多）
 
 
+
+
+
 Vue.prototype.$video = Video
 Vue.component(Cell.name, Cell);//标题文字带链接（如：>更多）
 Vue.use(MintUI);
+// Vue.component(Swipe.name, Swipe);
+// Vue.component(SwipeItem.name, SwipeItem);
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
