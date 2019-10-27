@@ -1,25 +1,33 @@
 <template>
   <div class="container">
     <div class="Hotfood">
-
-   <ul class="hotul">
-  <li class="hotli"><a class="active" href="#home">推荐</a></li>
-  <li class="hotli"><a href="#news">分类</a></li>
-  <li class="hotli"><a href="#contact">视频</a></li>
-</ul> 
- <div class="gamsearch-1">
-            <input class="gaminput" type="text" placeholder="搜索好吃食谱" name="" id="" value="" />
-            <button ><i>搜索</i></button>
-            </div>
-<!-- 轮播图 -->
-
-    <div class="row">
+      <ul class="hotul">
+        <li class="hotli">
+          <a class="active" href="#home">推荐</a>
+        </li>
+        <li class="hotli">
+          <a href="#news">分类</a>
+        </li>
+        <li class="hotli">
+          <a href="#contact">视频</a>
+        </li>
+      </ul>
+      <div class="gamsearch-1">
+        <input class="gaminput" type="text" placeholder="搜索好吃食谱" name id value />
+        <button>
+          <i>搜索</i>
+        </button>
+      </div>
+      <!-- 轮播图 -->
+      <Swipercom :ItemImgs="sliders"></Swipercom>
+      
+      <div class="row">
         <p style="color: green;" align="left">热门食谱</p>
         <p align="right">
           <a href="#" style=" text-decoration: none;">发现更多></a>
         </p>
       </div>
-       <div class="flex-container-1">
+      <div class="flex-container-1">
         <div class="flex-item-1">
           <a href>
             <img
@@ -67,11 +75,10 @@
               <span>100.00</span>
             </p>
           </div>
-        </div>
         </div>
       </div>
 
-       <div class="row">
+      <div class="row">
         <p style="color: green;" align="left">热门美食到店</p>
         <p align="right">
           <a href="#" style=" text-decoration: none;">发现更多></a>
@@ -115,55 +122,81 @@
           </div>
         </div>
       </div>
-    </div> 
+    </div>
+  </div>
 </template>
 
 
 <script>
+import Swipercom from "./Swipercom";
 export default {
-  name: "Hotfood",
+  name: "slider",
   props: {
-    msg: String
+    initialSpeed: {
+      type: Number,
+      default: 30
+    },
+    initialInterval: {
+      type: Number,
+      default: 3
+    }
+  },
+  components: {
+    Swipercom
+  },
+  data() {
+    return {
+      sliders: [
+        {
+          img: "../../static/CarouselImg/mthumb.jpg"
+        },
+        {
+          img: "../../static/CarouselImg/timg.jpg"
+        },
+        {
+          img: "../../static/CarouselImg/ufmgp.jpg"
+        },
+        {
+          img: "../../static/CarouselImg/ufmgp.jpg"
+        }
+      ]
+    };
   }
 };
 </script>
 
 
  <style>
-
 .hotul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border: 1px solid #e7e7e7;
-    background-color: white;
-    text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: white;
+  text-align: center;
 }
 
 .hotli {
-    float: left;
+  float: left;
 }
 
 .hotli a {
-    display: block;
-    color: #666;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .hotli a:hover:not(.active) {
-    background-color: #ddd;
+  background-color: #ddd;
 }
 
 .hotli a.active {
-    color: white;
-    background-color: skyblue;
-
+  color: white;
+  background-color: skyblue;
 }
-
 
 .flex-container-1 {
   display: -webkit-flex;
@@ -179,39 +212,41 @@ export default {
   width: 400px;
   height: 250px;
   margin: 20px;
-} 
+}
 
-.gamsearch-1{
-            /* width: 100%;             */
-            margin: 10px;
-            display: flex;
-            /*border: 1px solid red;*/
-            transform: translateY(-6px);
-        }
-        .gamsearch-1 .gaminput{
-            float: left;
-            flex: 4;
-            height: 40px;
-            outline: none;
-            border: 2px solid skyblue;
-            box-sizing: border-box;
-            padding-left: 10px;
-        }
-        .gamsearch-1 button{
-            float: right;
-            flex: 1;
-            height: 40px;
-            background-color: skyblue;
-            color: white;
-            border-style: none;
-            outline: none;
-        }
-        .gamsearch-1 button i{
-            font-style: normal;
-        }
-        .gamsearch-1 button:hover{
-            font-size: 16px;
-        }
-
-
+.gamsearch-1 {
+  /* width: 100%;             */
+  margin: 10px;
+  display: flex;
+  /*border: 1px solid red;*/
+  transform: translateY(-6px);
+}
+.gamsearch-1 .gaminput {
+  float: left;
+  flex: 4;
+  height: 40px;
+  outline: none;
+  border: 2px solid skyblue;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+.gamsearch-1 button {
+  float: right;
+  flex: 1;
+  height: 40px;
+  background-color: skyblue;
+  color: white;
+  border-style: none;
+  outline: none;
+}
+.gamsearch-1 button i {
+  font-style: normal;
+}
+.gamsearch-1 button:hover {
+  font-size: 16px;
+}
+img {
+  user-select: none;
+  width: 100%;
+}
 </style>

@@ -12,10 +12,12 @@
           <a href="#contact">到店觅食</a>
         </li>
       </ul>
- <div class="gamsearch-2">
-            <input class="gaminput" type="text" placeholder="搜索新菜馆" name="" id="" value="" />
-            <button ><i>搜索</i></button>
-            </div>
+      <div class="gamsearch-2">
+        <input class="gaminput" type="text" placeholder="搜索新菜馆" name id value />
+        <button>
+          <i>搜索</i>
+        </button>
+      </div>
 
       <div class="flex-container-3">
         <div class="flex-item-3">
@@ -66,7 +68,7 @@
         <br />
         <div class="thumbnail">
           <h3>酥烂脱骨的红烧羊排，吃完唇齿留香</h3>
-          <a href="">
+          <a href>
             <img
               style="width: 100%; height: 450px; display: block;"
               alt="100%x200"
@@ -80,7 +82,7 @@
               <a
                 class="btn btn-primary btn-block"
                 role="button"
-                href=""
+                href
                 style="width: 200px; text-decoration: none; color: skyblue;"
               >查看详情</a>
             </p>
@@ -92,7 +94,7 @@
         <br />
         <div class="thumbnail">
           <h3>秋季滋补好帮手，当然少不了喝汤啦</h3>
-          <a href="">
+          <a href>
             <img
               style="width: 100%; height: 450px; display: block;"
               alt="100%x200"
@@ -106,7 +108,7 @@
               <a
                 class="btn btn-primary btn-block"
                 role="button"
-                href=""
+                href
                 style="width: 200px; text-decoration: none; color: skyblue;"
               >查看详情</a>
             </p>
@@ -177,35 +179,35 @@ export default {
   margin: 10px;
 }
 
-.gamsearch-2{
-            /* width: 100%;             */
-            margin: 10px;
-            display: flex;
-            /*border: 1px solid red;*/
-            transform: translateY(-6px);
-        }
-        .gamsearch-2 .gaminput{
-            float: left;
-            flex: 4;
-            height: 40px;
-            outline: none;
-            border: 2px solid skyblue;
-            box-sizing: border-box;
-            padding-left: 10px;
-        }
-        .gamsearch-2 button{
-            float: right;
-            flex: 1;
-            height: 40px;
-            background-color: skyblue;
-            color: white;
-            border-style: none;
-            outline: none;
-        }
-        .gamsearch-2 button i{
-            font-style: normal;
-        }
-        .gamsearch-2 button:hover{
-            font-size: 16px;
-        }
+.gamsearch-2 {
+  /* width: 100%;             */
+  margin: 10px;
+  display: flex;
+  /*border: 1px solid red;*/
+  transform: translateY(-6px);
+}
+.gamsearch-2 .gaminput {
+  float: left;
+  flex: 4;
+  height: 40px;
+  outline: none;
+  border: 2px solid skyblue;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+.gamsearch-2 button {
+  float: right;
+  flex: 1;
+  height: 40px;
+  background-color: skyblue;
+  color: white;
+  border-style: none;
+  outline: none;
+}
+.gamsearch-2 button i {
+  font-style: normal;
+}
+.gamsearch-2 button:hover {
+  font-size: 16px;
+}
 </style>
