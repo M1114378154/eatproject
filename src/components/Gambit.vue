@@ -20,12 +20,123 @@
         <div>
             <mt-cell title="#早餐" to="//baidu.com" is-link value="更多"></mt-cell>
         </div>
-       
+       <div class='gamcell'>
+                <div class='gamimg'><img class="gambitimg" src="../assets/logo.png" alt=""></div>
+                <div class='gamtext'>
+                    <p class='gamtitle'>用户1</p>
+                   <p class='gampcontent'>1小时前</p>
+                    <h4 class="gamh4">#早餐
+                      今日份早餐：烤面包
+                    </h4>
+                </div>
+          <div class="flex-gam">
+        <div class="flex-gamitem">
+          <a href>
+            <img
+              style="width: 100%; height: 180px; display: block;"
+              alt="100%x200"
+              src="http://photocdn.sohu.com/20070209/Img248153407.jpg"
+              data-src="holder.js/100%x200"
+              data-holder-rendered="true"
+            />
+          </a>
+          <div class="caption center">
+           
+          </div>
+        </div>
+        <div class="flex-gamitem">
+          <a href>
+            <img
+              style="width: 100%; height: 180px; display: block;"
+              alt="100%x200"
+              src="http://img.zcool.cn/community/012f60578ddd1a0000012e7e06cbbb.JPG"
+              data-src="holder.js/100%x200"
+              data-holder-rendered="true"
+            />
+          </a>
+          <div class="caption center">
+            <!-- <h3>中西餐菜式</h3> -->
+          </div>
+        </div>
+          </div>         
+           </div>  
+           <div class="gamhp">
+            <mt-cell title="#烘培" to="//baidu.com" is-link value="更多"></mt-cell>
+        </div>
+         <div class='gamcell'>
+                <div class='gamimg'><img class="gambitimg" src="../assets/logo.png" alt=""></div>
+                <div class='gamtext'>
+                    <p class='gamtitle'>用户2</p>
+                   <p class='gampcontent'>1小时前</p>
+                    <h4 class="gamh4">#烘培
+                      今日份早餐：烤面包
+                    </h4>
+                </div>
+          <div class="flex-gam">
+        <div class="flex-gamitem">
+          <a href>
+            <img
+              style="width: 100%; height: 180px; display: block;"
+              alt="100%x200"
+              src="http://photocdn.sohu.com/20070209/Img248153407.jpg"
+              data-src="holder.js/100%x200"
+              data-holder-rendered="true"
+            />
+          </a>
+          <div class="caption center">
+           
+          </div>
+        </div>
+        <div class="flex-gamitem">
+          <a href>
+            <img
+              style="width: 100%; height: 180px; display: block;"
+              alt="100%x200"
+              src="http://img.zcool.cn/community/012f60578ddd1a0000012e7e06cbbb.JPG"
+              data-src="holder.js/100%x200"
+              data-holder-rendered="true"
+            />
+          </a>
+          <div class="caption center">
+            <!-- <h3>中西餐菜式</h3> -->
+          </div>
+        </div>
+          </div>         
+           </div>  
+            <div class="gamhp">
+            <mt-cell title="#完餐" to="//baidu.com" is-link value="更多"></mt-cell>
+        </div>
   </div>
 </template>
 
 
 <style>
+.gamhp{
+  margin-top: 16%
+}
+.gamh4{
+  margin-left: 25%
+}
+.flex-gam {
+  display: -webkit-flex;
+  display: flex;
+  /* -webkit-justify-content: center; */
+  /* justify-content: center; */
+  width: 30%;
+  height: 240px;
+  /* background-color: whitesmoke; */
+  transform: translateY(-50px);
+   margin-left: -17%
+}
+
+.flex-gamitem {
+  background-color: white;
+  width: 300px;
+  height: 230px;
+  margin: 30px;
+}
+
+
  .mint-cell {
   background-color: #f2f2f2;
     text-align: left;
@@ -33,6 +144,36 @@
   transform: translateY(-210px);
   margin-left: 20%;
 }
+.gamcell{
+            width:100%;
+            height:100px;
+            margin-bottom: 10px;
+            display: flex;
+        }
+        .gamimg{
+            flex:0 0 15%;
+        }
+        .gambitimg{
+           width: 80px;
+           transform: translateY(-180px);
+           margin-left: 135%;
+        }
+        .gamtext{
+            flex: 0 0 27%;
+         transform: translateY(-180px);
+        }
+        .gamtitle{
+            font-size:20px;
+            font-weight: 700;
+
+        }
+        .gampcontent{
+            font-size: 10px;
+            font-weight: 400;
+            transform: translateY(-15px);            
+        }
+   
+
 
 .gamsearch{
             width: 60%;            
