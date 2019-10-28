@@ -54,7 +54,7 @@
           <img
             style="width:450px; height: 300px; display: block;"
             alt="100%x200"
-            src="http://i2.chuimg.com/f3bc0a0532a6432e831ac714cd452304_1280w_960h.jpg?imageView2/2/w/600/interlace/1/q/90"
+            src="../../static/CarouselImg/2.png"
             data-src="holder.js/100%x200"
             data-holder-rendered="true"
           />
@@ -68,7 +68,7 @@
           <img
             style="width:450px; height: 300px; display: block;"
             alt="100%x200"
-            src="http://img0.imgtn.bdimg.com/it/u=1268474689,156561479&fm=26&gp=0.jpg"
+            src="../../static/CarouselImg/1.png"
             data-src="holder.js/100%x200"
             data-holder-rendered="true"
           />
