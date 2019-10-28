@@ -12,24 +12,28 @@
         </ul>
       </center>
     </div>
-   <div class="gamsearch">
-            <input class="gaminput" type="text" placeholder="请输入..." name="" id="" value="" />
-            <button ><i>搜索</i></button>
-           
-        </div>
-        <div>
-            <mt-cell title="#早餐" to="//baidu.com" is-link value="更多"></mt-cell>
-        </div>
-       <div class='gamcell'>
-                <div class='gamimg'><img class="gambitimg" src="../assets/logo.png" alt=""></div>
-                <div class='gamtext'>
-                    <p class='gamtitle'>用户1</p>
-                   <p class='gampcontent'>1小时前</p>
-                    <h4 class="gamh4">#早餐
-                      今日份早餐：烤面包
-                    </h4>
-                </div>
-          <div class="flex-gam">
+    <div class="gamsearch">
+      <input class="gaminput" type="text" placeholder="请输入..." name id value />
+      <button>
+        <i>搜索</i>
+      </button>
+    </div>
+    <div>
+      <mt-cell title="#早餐" to="//baidu.com" is-link value="更多"></mt-cell>
+    </div>
+    <div class="gamcell">
+      <div class="gamimg">
+        <img class="gambitimg" src="../assets/logo.png" alt />
+      </div>
+      <div class="gamtext">
+        <p class="gamtitle">用户1</p>
+        <p class="gampcontent">1小时前</p>
+        <h4 class="gamh4">
+          #早餐
+          今日份早餐：烤面包
+        </h4>
+      </div>
+      <div class="flex-gam">
         <div class="flex-gamitem">
           <a href>
             <img
@@ -40,9 +44,99 @@
               data-holder-rendered="true"
             />
           </a>
-          <div class="caption center">
-           
-          </div>
+        </div>
+        <div class="flex-gamitem">
+          <a href>
+            <img
+              style="width: 100%; height: 180px; display: block;"
+              alt="100%x200"
+              src="http://img.zcool.cn/community/012f60578ddd1a0000012e7e06cbbb.JPG"
+              data-src="holder.js/100%x200"
+              data-holder-rendered="true"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+    <p class="like">
+      <svg
+        t="1572254469403"
+        class="icon"
+        viewBox="0 0 1024 1024"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        p-id="4334"
+        width="20"
+        height="20"
+      >
+        <path
+          d="M257.8432 875.0592H175.104a69.9904 69.9904 0 0 1-69.8368-69.9392v-368.64A69.9392 69.9392 0 0 1 175.104 366.592h99.6352a33.9968 33.9968 0 0 1 33.9456 35.2256L291.84 842.496a33.9968 33.9968 0 0 1-33.8944 32.5632zM200.6528 434.3808a27.648 27.648 0 0 0-27.5968 27.5456v317.696a27.6992 27.6992 0 0 0 27.5968 27.5968 25.6 25.6 0 0 0 25.6-24.5248L238.5408 460.8a25.6 25.6 0 0 0-25.6-26.4704z m-25.6 0M749.1072 875.0592H398.6944a71.68 71.68 0 0 1-71.68-74.3424l14.0288-365.2608a71.68 71.68 0 0 1 71.68-68.864H430.08a10.24 10.24 0 0 0 9.5232-6.7072l54.784-153.6a116.0192 116.0192 0 0 1 224.0512 55.4496l-13.3632 93.2864a10.24 10.24 0 0 0 10.24 11.5712h101.5808a101.9392 101.9392 0 0 1 101.8368 101.1712 6.2464 6.2464 0 0 1 0 1.3824l-0.6656 6.144v1.1264l-66.56 300.0832a7.8848 7.8848 0 0 0 0 1.536 101.9392 101.9392 0 0 1-101.7344 97.024z m-351.5392-142.1824a71.68 71.68 0 0 0 71.68 74.3424h280.0128A34.0992 34.0992 0 0 0 783.36 773.12l0.768-6.8096v-1.1264l66.56-298.0352a9.6256 9.6256 0 0 0 0-3.6352 34.1504 34.1504 0 0 0-33.6896-29.1328h-179.8144a10.24 10.24 0 0 1-10.24-11.5712l24.3712-170.6496a48.0768 48.0768 0 0 0-47.7184-54.9888 48.2304 48.2304 0 0 0-45.3632 32L487.5264 427.6224a10.24 10.24 0 0 1-9.5744 6.7584 71.68 71.68 0 0 0-71.68 68.8128z m-2.8672 74.3424"
+          fill="#8a8a8a"
+          p-id="4335"
+        />
+      </svg>111
+      &nbsp;&nbsp;&nbsp;
+      <svg
+        t="1572254204369"
+        class="icon"
+        viewBox="0 0 1024 1024"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        p-id="2028"
+        width="20"
+        height="20"
+      >
+        <path
+          d="M214.60224 997.832a30.744 30.744 0 0 1-18.104-5.88 30.76 30.76 0 0 1-12.192-30.088l54.04-313.832L9.36224 425.768a30.736 30.736 0 0 1 17-52.48l316.576-45.84L484.49024 41.864c10.328-20.928 44.736-20.928 55.064 0L681.14624 327.448l316.56 45.84a30.736 30.736 0 0 1 17 52.48L785.71424 648.032l54.072 313.832a30.8 30.8 0 0 1-12.184 30.088 30.904 30.904 0 0 1-32.368 2.376L512.02624 846.096 228.85824 994.32a30.864 30.864 0 0 1-14.256 3.512zM512.02624 780.64c4.896 0 9.792 1.168 14.264 3.512l242.344 126.84-46.272-268.512a30.688 30.688 0 0 1 8.888-27.288l195.784-190.016-270.688-39.216a30.672 30.672 0 0 1-23.12-16.752L512.02624 124.744 390.85024 369.208a30.672 30.672 0 0 1-23.12 16.752l-270.704 39.208 195.784 190.016a30.728 30.728 0 0 1 8.888 27.288l-46.232 268.52L497.76224 784.16A30.712 30.712 0 0 1 512.02624 780.64z"
+          fill="#838384"
+          p-id="2029"
+        />
+      </svg>140
+      &nbsp;&nbsp;&nbsp;
+      <svg
+        t="1572254375261"
+        class="icon"
+        viewBox="0 0 1024 1024"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        p-id="3234"
+        width="20"
+        height="20"
+      >
+        <path
+          d="M281.535354 387.361616c-31.806061 0-57.664646 26.763636-57.664647 59.733333 0 32.969697 25.858586 59.733333 57.664647 59.733334s57.664646-26.763636 57.664646-59.733334c0-33.09899-25.858586-59.733333-57.664646-59.733333z m230.529292 0c-31.806061 0-57.664646 26.763636-57.664646 59.733333 0 32.969697 25.729293 59.733333 57.664646 59.733334 31.806061 0 57.535354-26.763636 57.535354-59.733334 0-33.09899-25.858586-59.733333-57.535354-59.733333z m230.4 0c-31.806061 0-57.664646 26.763636-57.664646 59.733333 0 32.969697 25.858586 59.733333 57.664646 59.733334s57.664646-26.763636 57.664647-59.733334c-0.129293-33.09899-25.858586-59.733333-57.664647-59.733333z m115.2-270.222222H166.335354c-63.612121 0-115.2 53.527273-115.2 119.59596v390.981818c0 65.939394 52.751515 126.836364 117.785858 126.836363h175.579798c30.513131 32.581818 157.220202 149.979798 157.220202 149.979798 5.559596 5.818182 14.739394 5.818182 20.29899 0 0 0 92.832323-91.410101 153.212121-149.979798h179.717172c65.034343 0 117.785859-60.89697 117.785859-126.836363V236.606061c0.129293-65.939394-51.458586-119.466667-115.070708-119.466667z m57.535354 510.577778c0 32.969697-27.668687 67.620202-60.250505 67.620202H678.335354c-21.462626 0-40.727273 21.979798-40.727273 21.979798l-124.121212 114.941414-124.121212-114.941414s-23.660606-21.979798-43.830303-21.979798H168.921212c-32.581818 0-60.250505-34.650505-60.250505-67.620202V236.606061c0-32.969697 25.729293-59.733333 57.664647-59.733334h691.329292c31.806061 0 57.535354 26.763636 57.535354 59.733334v391.111111z m0 0"
+          fill="#838384"
+          p-id="3235"
+        />
+      </svg>140
+    </p>
+
+    <div class="gamhp">
+      <mt-cell title="#烘培" to="//baidu.com" is-link value="更多"></mt-cell>
+    </div>
+    <div class="gamcell">
+      <div class="gamimg">
+        <img class="gambitimg" src="../assets/logo.png" alt />
+      </div>
+      <div class="gamtext">
+        <p class="gamtitle">用户2</p>
+        <p class="gampcontent">1小时前</p>
+        <h4 class="gamh4">
+          #烘培
+          今日份早餐：烤面包
+        </h4>
+      </div>
+      <div class="flex-gam">
+        <div class="flex-gamitem">
+          <a href>
+            <img
+              style="width: 100%; height: 180px; display: block;"
+              alt="100%x200"
+              src="http://photocdn.sohu.com/20070209/Img248153407.jpg"
+              data-src="holder.js/100%x200"
+              data-holder-rendered="true"
+            />
+          </a>
         </div>
         <div class="flex-gamitem">
           <a href>
@@ -58,64 +152,93 @@
             <!-- <h3>中西餐菜式</h3> -->
           </div>
         </div>
-          </div>         
-           </div>  
-           <div class="gamhp">
-            <mt-cell title="#烘培" to="//baidu.com" is-link value="更多"></mt-cell>
-        </div>
-         <div class='gamcell'>
-                <div class='gamimg'><img class="gambitimg" src="../assets/logo.png" alt=""></div>
-                <div class='gamtext'>
-                    <p class='gamtitle'>用户2</p>
-                   <p class='gampcontent'>1小时前</p>
-                    <h4 class="gamh4">#烘培
-                      今日份早餐：烤面包
-                    </h4>
-                </div>
-          <div class="flex-gam">
-        <div class="flex-gamitem">
-          <a href>
-            <img
-              style="width: 100%; height: 180px; display: block;"
-              alt="100%x200"
-              src="http://photocdn.sohu.com/20070209/Img248153407.jpg"
-              data-src="holder.js/100%x200"
-              data-holder-rendered="true"
-            />
-          </a>
-          <div class="caption center">
-           
-          </div>
-        </div>
-        <div class="flex-gamitem">
-          <a href>
-            <img
-              style="width: 100%; height: 180px; display: block;"
-              alt="100%x200"
-              src="http://img.zcool.cn/community/012f60578ddd1a0000012e7e06cbbb.JPG"
-              data-src="holder.js/100%x200"
-              data-holder-rendered="true"
-            />
-          </a>
-          <div class="caption center">
-            <!-- <h3>中西餐菜式</h3> -->
-          </div>
-        </div>
-          </div>         
-           </div>  
-            <div class="gamhp">
-            <mt-cell title="#晚餐" to="//baidu.com" is-link value="更多"></mt-cell>
-        </div>
+      </div>
+    </div>
+    <p class="like">
+      <svg
+        t="1572254469403"
+        class="icon"
+        viewBox="0 0 1024 1024"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        p-id="4334"
+        width="20"
+        height="20"
+      >
+        <path
+          d="M257.8432 875.0592H175.104a69.9904 69.9904 0 0 1-69.8368-69.9392v-368.64A69.9392 69.9392 0 0 1 175.104 366.592h99.6352a33.9968 33.9968 0 0 1 33.9456 35.2256L291.84 842.496a33.9968 33.9968 0 0 1-33.8944 32.5632zM200.6528 434.3808a27.648 27.648 0 0 0-27.5968 27.5456v317.696a27.6992 27.6992 0 0 0 27.5968 27.5968 25.6 25.6 0 0 0 25.6-24.5248L238.5408 460.8a25.6 25.6 0 0 0-25.6-26.4704z m-25.6 0M749.1072 875.0592H398.6944a71.68 71.68 0 0 1-71.68-74.3424l14.0288-365.2608a71.68 71.68 0 0 1 71.68-68.864H430.08a10.24 10.24 0 0 0 9.5232-6.7072l54.784-153.6a116.0192 116.0192 0 0 1 224.0512 55.4496l-13.3632 93.2864a10.24 10.24 0 0 0 10.24 11.5712h101.5808a101.9392 101.9392 0 0 1 101.8368 101.1712 6.2464 6.2464 0 0 1 0 1.3824l-0.6656 6.144v1.1264l-66.56 300.0832a7.8848 7.8848 0 0 0 0 1.536 101.9392 101.9392 0 0 1-101.7344 97.024z m-351.5392-142.1824a71.68 71.68 0 0 0 71.68 74.3424h280.0128A34.0992 34.0992 0 0 0 783.36 773.12l0.768-6.8096v-1.1264l66.56-298.0352a9.6256 9.6256 0 0 0 0-3.6352 34.1504 34.1504 0 0 0-33.6896-29.1328h-179.8144a10.24 10.24 0 0 1-10.24-11.5712l24.3712-170.6496a48.0768 48.0768 0 0 0-47.7184-54.9888 48.2304 48.2304 0 0 0-45.3632 32L487.5264 427.6224a10.24 10.24 0 0 1-9.5744 6.7584 71.68 71.68 0 0 0-71.68 68.8128z m-2.8672 74.3424"
+          fill="#8a8a8a"
+          p-id="4335"
+        />
+      </svg>111
+      &nbsp;&nbsp;&nbsp;
+      <svg
+        t="1572254204369"
+        class="icon"
+        viewBox="0 0 1024 1024"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        p-id="2028"
+        width="20"
+        height="20"
+      >
+        <path
+          d="M214.60224 997.832a30.744 30.744 0 0 1-18.104-5.88 30.76 30.76 0 0 1-12.192-30.088l54.04-313.832L9.36224 425.768a30.736 30.736 0 0 1 17-52.48l316.576-45.84L484.49024 41.864c10.328-20.928 44.736-20.928 55.064 0L681.14624 327.448l316.56 45.84a30.736 30.736 0 0 1 17 52.48L785.71424 648.032l54.072 313.832a30.8 30.8 0 0 1-12.184 30.088 30.904 30.904 0 0 1-32.368 2.376L512.02624 846.096 228.85824 994.32a30.864 30.864 0 0 1-14.256 3.512zM512.02624 780.64c4.896 0 9.792 1.168 14.264 3.512l242.344 126.84-46.272-268.512a30.688 30.688 0 0 1 8.888-27.288l195.784-190.016-270.688-39.216a30.672 30.672 0 0 1-23.12-16.752L512.02624 124.744 390.85024 369.208a30.672 30.672 0 0 1-23.12 16.752l-270.704 39.208 195.784 190.016a30.728 30.728 0 0 1 8.888 27.288l-46.232 268.52L497.76224 784.16A30.712 30.712 0 0 1 512.02624 780.64z"
+          fill="#838384"
+          p-id="2029"
+        />
+      </svg>140
+      &nbsp;&nbsp;&nbsp;
+      <svg
+        t="1572254375261"
+        class="icon"
+        viewBox="0 0 1024 1024"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        p-id="3234"
+        width="20"
+        height="20"
+      >
+        <path
+          d="M281.535354 387.361616c-31.806061 0-57.664646 26.763636-57.664647 59.733333 0 32.969697 25.858586 59.733333 57.664647 59.733334s57.664646-26.763636 57.664646-59.733334c0-33.09899-25.858586-59.733333-57.664646-59.733333z m230.529292 0c-31.806061 0-57.664646 26.763636-57.664646 59.733333 0 32.969697 25.729293 59.733333 57.664646 59.733334 31.806061 0 57.535354-26.763636 57.535354-59.733334 0-33.09899-25.858586-59.733333-57.535354-59.733333z m230.4 0c-31.806061 0-57.664646 26.763636-57.664646 59.733333 0 32.969697 25.858586 59.733333 57.664646 59.733334s57.664646-26.763636 57.664647-59.733334c-0.129293-33.09899-25.858586-59.733333-57.664647-59.733333z m115.2-270.222222H166.335354c-63.612121 0-115.2 53.527273-115.2 119.59596v390.981818c0 65.939394 52.751515 126.836364 117.785858 126.836363h175.579798c30.513131 32.581818 157.220202 149.979798 157.220202 149.979798 5.559596 5.818182 14.739394 5.818182 20.29899 0 0 0 92.832323-91.410101 153.212121-149.979798h179.717172c65.034343 0 117.785859-60.89697 117.785859-126.836363V236.606061c0.129293-65.939394-51.458586-119.466667-115.070708-119.466667z m57.535354 510.577778c0 32.969697-27.668687 67.620202-60.250505 67.620202H678.335354c-21.462626 0-40.727273 21.979798-40.727273 21.979798l-124.121212 114.941414-124.121212-114.941414s-23.660606-21.979798-43.830303-21.979798H168.921212c-32.581818 0-60.250505-34.650505-60.250505-67.620202V236.606061c0-32.969697 25.729293-59.733333 57.664647-59.733334h691.329292c31.806061 0 57.535354 26.763636 57.535354 59.733334v391.111111z m0 0"
+          fill="#838384"
+          p-id="3235"
+        />
+      </svg>140
+    </p>
+
+    <div class="gamhp">
+      <mt-cell title="#晚餐" to="//baidu.com" is-link value="更多"></mt-cell>
+    </div>
   </div>
 </template>
+<script>
+export default {
+  name: "Gambit",
+  props: {
+    msg: String
+  }
+};
+</script>
 
 
 <style>
-.gamhp{
-  margin-top: 16%
+.like {
+  font-size: 20px;
+  color: #ccc;
+  cursor: pointer;
+  margin-top: 5%;
+  margin-left: 10%;
 }
-.gamh4{
-  margin-left: 25%
+.cs {
+  color: #f00;
+}
+
+.gamhp {
+  margin-top: 18%;
+}
+.gamh4 {
+  margin-left: 25%;
 }
 .flex-gam {
   display: -webkit-flex;
@@ -126,87 +249,82 @@
   height: 240px;
   /* background-color: whitesmoke; */
   transform: translateY(-50px);
-   margin-left: -17%
+  margin-left: -17%;
 }
 
 .flex-gamitem {
-  background-color: white;
+  /* background-color: white; */
   width: 300px;
   height: 230px;
   margin: 30px;
 }
 
-
- .mint-cell {
+.mint-cell {
   background-color: #f2f2f2;
-    text-align: left;
+  text-align: left;
   width: 60%;
   transform: translateY(-210px);
   margin-left: 20%;
 }
-.gamcell{
-            width:100%;
-            height:100px;
-            margin-bottom: 10px;
-            display: flex;
-        }
-        .gamimg{
-            flex:0 0 15%;
-        }
-        .gambitimg{
-           width: 80px;
-           transform: translateY(-180px);
-           margin-left: 135%;
-        }
-        .gamtext{
-            flex: 0 0 27%;
-         transform: translateY(-180px);
-        }
-        .gamtitle{
-            font-size:20px;
-            font-weight: 700;
+.gamcell {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  display: flex;
+}
+.gamimg {
+  flex: 0 0 15%;
+}
+.gambitimg {
+  width: 80px;
+  transform: translateY(-180px);
+  margin-left: 135%;
+}
+.gamtext {
+  flex: 0 0 27%;
+  transform: translateY(-180px);
+}
+.gamtitle {
+  font-size: 20px;
+  font-weight: 700;
+}
+.gampcontent {
+  font-size: 10px;
+  font-weight: 400;
+  transform: translateY(-15px);
+}
 
-        }
-        .gampcontent{
-            font-size: 10px;
-            font-weight: 400;
-            transform: translateY(-15px);            
-        }
-   
-
-
-.gamsearch{
-            width: 60%;            
-            margin: 100px auto;
-            display: flex;
-            /*border: 1px solid red;*/
-            transform: translateY(-125px);
-        }
-        .gamsearch .gaminput{
-            float: left;
-            flex: 4;
-            height: 40px;
-            outline: none;
-            border: 2px solid skyblue;
-            box-sizing: border-box;
-            padding-left: 10px;
-        }
-        .gamsearch button{
-            float: right;
-            flex: 1;
-            height: 40px;
-            background-color: skyblue;
-            color: white;
-            border-style: none;
-            outline: none;
-        }
-        .gamsearch button i{
-            font-style: normal;
-        }
-        .gamsearch button:hover{
-            font-size: 16px;
-        }
-
+.gamsearch {
+  width: 60%;
+  margin: 100px auto;
+  display: flex;
+  /*border: 1px solid red;*/
+  transform: translateY(-125px);
+}
+.gamsearch .gaminput {
+  float: left;
+  flex: 4;
+  height: 40px;
+  outline: none;
+  border: 2px solid skyblue;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+.gamsearch button {
+  float: right;
+  flex: 1;
+  height: 40px;
+  background-color: skyblue;
+  color: white;
+  border-style: none;
+  outline: none;
+}
+.gamsearch button i {
+  font-style: normal;
+}
+.gamsearch button:hover {
+  font-size: 16px;
+}
 
 .gamtop {
   margin-top: 1px; /*离顶部的距离为0*/
