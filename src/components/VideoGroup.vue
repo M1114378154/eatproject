@@ -19,7 +19,7 @@
     <center>
       <div class="test_two_box">
         <video id="myVideo" class="video-js vjs-default-skin vjs-big-play-centered" preload="auto">
-          <source src="../assets/video/营养鲫鱼汤做法.mp4" type="video/mp4" />
+          <source src="../assets/video/螺蛳粉做法.mp4" type="video/mp4" />
         </video>
         <span class="Videospan">鲫鱼豆腐汤</span>
 
