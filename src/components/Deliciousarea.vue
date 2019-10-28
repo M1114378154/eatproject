@@ -1,13 +1,17 @@
 <template>
   <div class>
-    <ul class="hotul-1">
-      <li class="hotli-1">
-        <a class="active" href>好吃活动区</a>
-      </li>
-      <li class="hotli-1">
-        <a href>好吃话题区</a>
-      </li>
-    </ul>
+      <div class="Detop">
+      <center>
+        <ul class="Dgamul">
+          <li class="Dgamli">
+            <a class="active" href="#">好吃活动专区</a>
+          </li>
+          <li class="Dgamli">
+            <a  href="#">好吃话题区</a>
+          </li>
+        </ul>
+      </center>
+    </div>
     <!-- 搜索 -->
     <div class="gamsearch-3">
       <input class="gaminput" type="text" placeholder="搜索活动" name id value />
@@ -54,7 +58,7 @@
           <img
             style="width:450px; height: 300px; display: block;"
             alt="100%x200"
-            src="http://i2.chuimg.com/f3bc0a0532a6432e831ac714cd452304_1280w_960h.jpg?imageView2/2/w/600/interlace/1/q/90"
+            src="../../static/CarouselImg/2.png"
             data-src="holder.js/100%x200"
             data-holder-rendered="true"
           />
@@ -68,7 +72,7 @@
           <img
             style="width:450px; height: 300px; display: block;"
             alt="100%x200"
-            src="http://img0.imgtn.bdimg.com/it/u=1268474689,156561479&fm=26&gp=0.jpg"
+            src="../../static/CarouselImg/1.png"
             data-src="holder.js/100%x200"
             data-holder-rendered="true"
           />
@@ -121,7 +125,7 @@ export default {
 </script>
 
 <style>
-.hotul-1 {
+/* .hotul-1 {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -150,11 +154,50 @@ export default {
 .hotli-1 a.active {
   color: white;
   background-color: skyblue;
+} */
+.Detop {
+  margin-top: 1px; /*离顶部的距离为0*/
+  margin-bottom: 5px;
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+}
+.Detop .Dgamul {
+  width: auto; /*宽度也改为自动*/
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0;
+}
+.Detop .Dgamli {
+  float: left; /* 使li内容横向浮动，即横向排列  */
+  margin: 0 80px; /* 两个li之间的距离*/
+  width: 200px;
+  height: 80px;
+}
+
+.Detop .Dgamli a {
+  /* 设置链接内容显示的格式*/
+  display: block; /* 把链接显示为块元素可使整个链接区域可点击 */
+  color: black;
+  text-align: center;
+  padding: 3px;
+  text-decoration: none; /* 去除下划线 */
+  font-size: 190%;
+}
+.Detop a.active {
+  background-color: skyblue;
+  color: black;
+}
+.Detop .Dgamli a:hover {
+  /* 鼠标选中时背景变为黑色 */
+  background-color: #0099cc;
+  color: white;
 }
 /* 轮播图 */
 img {
   user-select: none;
-  width: 100%;
+  width:60%;
 }
 
 .flex-container-2 {
@@ -177,7 +220,7 @@ img {
 }
 
 .gamsearch-3 {
-  width: 100%;
+  width: 60%;
   margin: 6px auto;
   display: flex;
   /*border: 1px solid red;*/

@@ -10,8 +10,8 @@
     <div class="swiper-pagination"></div>
 
     <!-- 如果需要导航按钮 -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
+    <!-- <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div> -->
 
   </div>
 </template>
@@ -66,16 +66,16 @@
 
 <style>
   .swiper-container {
-    height: 300px;
+    height: 500px;
   }
 
   .swiper-slide {
-    width: 100%;
+    width: 60%;
 
   }
 
   .swiper-slide img {
-    height: 300px;
+    height: 500px;
   }
 
 </style>
