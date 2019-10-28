@@ -262,16 +262,16 @@ export default {
 .mint-cell {
   background-color: #f2f2f2;
   text-align: left;
-  width: 40%;
+  width: 45%;
   transform: translateY(-210px);
-  margin-left: 30%;
+  margin-left: 27.5%;
 }
 .gamcell {
   width: 90%;
   height: 100px;
   margin-bottom: 10px;
   display: flex;
-  margin-left: 10%
+  margin-left: 9%
 }
 .gamimg {
   flex: 0 0 15%;
@@ -296,7 +296,7 @@ export default {
 }
 
 .gamsearch {
-  width: 40%;
+  width: 45%;
   margin: 100px auto;
   display: flex;
   /*border: 1px solid red;*/
