@@ -37,7 +37,7 @@
         <div class="flex-gamitem">
           <a href>
             <img
-              style="width: 100%; height: 180px; display: block;"
+              style="width: 150%; height: 180px; display: block;"
               alt="100%x200"
               src="http://photocdn.sohu.com/20070209/Img248153407.jpg"
               data-src="holder.js/100%x200"
@@ -48,7 +48,7 @@
         <div class="flex-gamitem">
           <a href>
             <img
-              style="width: 100%; height: 180px; display: block;"
+              style="width: 150%; height: 180px; display: block;"
               alt="100%x200"
               src="http://img.zcool.cn/community/012f60578ddd1a0000012e7e06cbbb.JPG"
               data-src="holder.js/100%x200"
@@ -130,7 +130,7 @@
         <div class="flex-gamitem">
           <a href>
             <img
-              style="width: 100%; height: 180px; display: block;"
+              style="width: 150%; height: 180px; display: block;"
               alt="100%x200"
               src="http://photocdn.sohu.com/20070209/Img248153407.jpg"
               data-src="holder.js/100%x200"
@@ -141,7 +141,7 @@
         <div class="flex-gamitem">
           <a href>
             <img
-              style="width: 100%; height: 180px; display: block;"
+              style="width: 150%; height: 180px; display: block;"
               alt="100%x200"
               src="http://img.zcool.cn/community/012f60578ddd1a0000012e7e06cbbb.JPG"
               data-src="holder.js/100%x200"
@@ -170,7 +170,7 @@
           fill="#8a8a8a"
           p-id="4335"
         />
-      </svg>111
+      </svg>140
       &nbsp;&nbsp;&nbsp;
       <svg
         t="1572254204369"
@@ -227,15 +227,15 @@ export default {
   font-size: 20px;
   color: #ccc;
   cursor: pointer;
-  margin-top: 5%;
-  margin-left: 10%;
+  margin-top: 6%;
+  margin-left: 25%;
 }
 .cs {
   color: #f00;
 }
 
 .gamhp {
-  margin-top: 18%;
+  margin-top: 16%;
 }
 .gamh4 {
   margin-left: 25%;
@@ -256,21 +256,22 @@ export default {
   /* background-color: white; */
   width: 300px;
   height: 230px;
-  margin: 30px;
+  margin: 50px;
 }
 
 .mint-cell {
   background-color: #f2f2f2;
   text-align: left;
-  width: 60%;
+  width: 45%;
   transform: translateY(-210px);
-  margin-left: 20%;
+  margin-left: 27.5%;
 }
 .gamcell {
-  width: 100%;
+  width: 90%;
   height: 100px;
   margin-bottom: 10px;
   display: flex;
+  margin-left: 9%
 }
 .gamimg {
   flex: 0 0 15%;
@@ -295,7 +296,7 @@ export default {
 }
 
 .gamsearch {
-  width: 60%;
+  width: 45%;
   margin: 100px auto;
   display: flex;
   /*border: 1px solid red;*/
