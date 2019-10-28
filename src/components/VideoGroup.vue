@@ -18,14 +18,15 @@
     </div>
     <center>
       <div class="test_two_box">
-        <video id="myVideo" class="video-js">
-          <source src="//vjs.zencdn.net/v/oceans.mp4" type="video/mp4" />
+        <video id="myVideo" class="video-js vjs-default-skin vjs-big-play-centered" preload="auto">
+          <source src="../assets/video/螺蛳粉做法.mp4" type="video/mp4" />
         </video>
+        <span class="Videospan">鲫鱼豆腐汤</span>
+
       </div>
-      <!-- <video width="320" height="240" controls>
-        <source src="http://vd3.bdstatic.com/mda-jitawrnfu68fne83/mda-jitawrnfu68fne83.mp4" type="video/mp4" />
-      </video>-->
     </center>
+
+    
   </div>
 </template>
 
@@ -57,6 +58,7 @@ export default {
         //设置视频播放器的显示高度（以像素为单位）
         height: "400px"
       });
+      
     }
   }
 };
@@ -104,10 +106,15 @@ export default {
 }
 /* 头部导航栏 */
 /* 视频 */
-/* .container .test_two_box video {
- 
- 
-} */
+.test_two_box {
+  background-color: whitesmoke;
+  width: 50%;
+}
+.test_two_box .Videospan {
+  float: left;
+  /* padding-left: 25%; */
+  margin-top: 20px;
+}
 
 /* 视频 */
 

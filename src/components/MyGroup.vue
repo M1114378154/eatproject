@@ -62,6 +62,7 @@ export default {
 }
 .card {
   background-color: skyblue;
+  width: 90%;
   margin: auto;
 }
 
