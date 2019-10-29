@@ -24,64 +24,73 @@
         </button>
       </div>
       <!-- 轮播图 -->
-      <Swipercom :ItemImgs="sliders"></Swipercom>
-      
+      <Swipercom :ItemImgs="sliders"></Swipercom>       
       <div class="row">
         <p style="color: green;" align="left">热门食谱</p>
         <p align="right">
           <a href="#" style=" text-decoration: none;">发现更多></a>
         </p>
       </div>
+      <!-- <div class="hot">
+      <mt-cell title="热门食谱" align="left" to="//baidu.com" is-link value="更多"></mt-cell>
+    </div> -->
+      <!-- <div class="row">
+      <p  align="left">特色</p>
+      <p  align="right">更多></p>
+      </div> -->
       
       <div class="flex-container-1">
         <div class="flex-item-1">
           <a href>
             <img
-              style="width:100%; height: 200px; display: block;"
+              style="width:100%; height: 250px; display: block;"
               alt="100%x200"
               src="https://goss.cfp.cn/creative/vcg/800/version23/VCG41481148194.jpg"
             />
           </a>
-          <div class="caption center">
+          <!-- <div class="caption center">
             <h3>披萨</h3>
             <p>
               <span>价格:</span>
               <span>100.00</span>
             </p>
-          </div>
+          </div> -->
         </div>
         <div class="flex-item-1">
           <a href>
             <img
-              style="width: 100%; height: 200px; display: block;"
+              style="width: 100%; height: 250px; display: block;"
               alt="100%x200"
               src="https://goss.cfp.cn/creative/vcg/800/version23/VCG41481148194.jpg"
             />
           </a>
-          <div class="caption center">
+          <!-- <div class="caption center">
             <h3>披萨</h3>
             <p>
               <span>价格:</span>
               <span>100.00</span>
             </p>
-          </div>
+          </div> -->
         </div>
         <div class="flex-item-1">
           <a href>
             <img
-              style="width: 100%; height: 200px; display: block;"
+              style="width: 100%; height: 250px; display: block;"
               alt="100%x200"
               src="https://goss.cfp.cn/creative/vcg/800/version23/VCG41481148194.jpg"
             />
           </a>
-          <div class="caption center">
+          <!-- <div class="caption center">
             <h3>披萨</h3>
             <p>
               <span>价格:</span>
               <span>100.00</span>
             </p>
-          </div>
+          </div> -->
         </div>
+      </div>
+        <div class="row">
+      <p  align="left" style="color:lavender;">菜单</p>
       </div>
 
       <div class="row">
@@ -90,43 +99,50 @@
           <a href="#" style=" text-decoration: none;">发现更多></a>
         </p>
       </div>
+        <!-- <div class="hot">
+      <mt-cell title="热门美食到店" align="left" to="//baidu.com" is-link value="更多"></mt-cell>
+    </div> -->
       <div class="flex-container-1">
         <div class="flex-item-1">
           <a href>
             <img
-              style="width: 100%; height: 200px; display: block;"
+              style="width: 100%; height: 250px; display: block;"
               alt="100%x200"
               src="http://pic1.win4000.com/wallpaper/b/5438c7252ad24.jpg"
             />
           </a>
-          <div class="caption center">
+          <!-- <div class="caption center">
             <h3>Queen女王店</h3>
-          </div>
+          </div> -->
         </div>
         <div class="flex-item-1">
           <a href>
             <img
-              style="width: 100%; height: 200px; display: block;"
+              style="width: 100%; height: 250px; display: block;"
               alt="100%x200"
               src="http://pic1.win4000.com/wallpaper/b/5438c7252ad24.jpg"
             />
           </a>
-          <div class="caption center">
+          <!-- <div class="caption center">
             <h3>Queen女王店</h3>
-          </div>
+          </div> -->
         </div>
         <div class="flex-item-1">
           <a href>
             <img
-              style="width: 100%; height: 200px; display: block;"
+              style="width: 100%; height: 250px; display: block;"
               alt="100%x200"
               src="http://pic1.win4000.com/wallpaper/b/5438c7252ad24.jpg"
             />
           </a>
-          <div class="caption center">
+          <!-- <div class="caption center">
             <h3>Queen女王店</h3>
-          </div>
+          </div> -->
         </div>
+     
+      </div>
+      <div class="row">
+      <p  align="left" style="color:lavender;">专题</p>
       </div>
     </div>
   </div>
@@ -251,12 +267,12 @@ export default {
   -webkit-justify-content: center;
   justify-content: center;
   width: 100%;
-  height: 310px;
-  background-color: lavender;
+  /* height: 280px; */
+  background-color:lavender;
 }
 
 .flex-item-1 {
-  background-color: skyblue;
+  background-color:white;
   width: 400px;
   height: 250px;
   margin: 20px;
