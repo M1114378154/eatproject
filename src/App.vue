@@ -180,11 +180,13 @@ export default {
   
 }
 .hl_nav .nav_list>li:hover{
+
     background-color: #0099cc;
-      
+
 }
 .hl_nav .nav_list>li:hover>ul{
     display: block;
+    color: white;
 
 }
 
