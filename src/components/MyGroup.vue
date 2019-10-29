@@ -1,7 +1,7 @@
 <template>
   <div class="Mygroup">
     <div class="container">
-      <h2>我的个人中心</h2>
+      <!-- <h2>我的个人中心</h2> -->
       <div class="card img-fluid">
         <img
           class="card-img-top"

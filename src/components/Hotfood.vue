@@ -1,21 +1,23 @@
 <template>
   <div class="container">
     <div class="Hotfood">
-      <div class="Hottop">
-        <center>
-          <ul class="Hcateul">
-            <li class="Hcateli">
-              <a class="active" href="#">推荐</a>
-            </li>
-            <li class="Hcateli">
-              <a href="#">分类</a>
-            </li>
-            <li class="Hcateli">
-              <a href="#">视频</a>
-            </li>
-          </ul>
-        </center>
-      </div>
+
+      <!-- <div class="Hottop">
+      <center>
+        <ul class="Hcateul">
+          <li class="Hcateli">
+            <a class="active" href="#">推荐</a>
+          </li>
+          <li class="Hcateli">
+            <a  href="#">分类</a>
+          </li>
+          <li class="Hcateli">
+            <a href="#">视频</a>
+          </li>
+        </ul>
+      </center>
+    </div> -->
+      
 
       <div class="gamsearch-1">
         <input class="gaminput" type="text" placeholder="搜索好吃食谱" name id value />
