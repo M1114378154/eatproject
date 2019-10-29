@@ -144,9 +144,11 @@ export default {
 }
 .hl_nav .nav_list>li:hover{
     background-color: #ea0d04;
+    
 }
 .hl_nav .nav_list>li:hover>ul{
     display: block;
+    color: white;
 
 }
 
