@@ -1,7 +1,7 @@
 <!--  -->
 <template>
   <div class="container">
-    <div class="VideoGroup">
+    <!-- <div class="VideoGroup">
       <center>
         <ul class="Videoul">
           <li class="Videoli">
@@ -15,7 +15,7 @@
           </li>
         </ul>
       </center>
-    </div>
+    </div> -->
     <div class="test_two_box" style="margin: auto;">
       <div>
         <center>
@@ -206,36 +206,42 @@ export default {
 <style>
 /* @import url(); 引入css类 */
 /* 头部导航栏 */
-.VideoGroup {
-  margin-top: 1px; /*离顶部的距离为0*/
+/* .VideoGroup {
+  margin-top: 1px; 
   margin-bottom: 5px;
   margin: 0%;
   padding: 0%;
   display: flex;
   justify-content: center;
-}
-.VideoGroup .Videoul {
-  width: auto; /*宽度也改为自动*/
+} */
+/* .VideoGroup .Videoul { */
+  /*宽度也改为自动*/
+  /* width: auto; 
   list-style-type: none;
   overflow: hidden;
   padding: 0;
-}
-.VideoGroup .Videoli {
-  float: left; /* 使li内容横向浮动，即横向排列  */
-  margin: 0 80px; /* 两个li之间的距离*/
-  width: 150px;
+} */
+/* .VideoGroup .Videoli { */
+  /* 使li内容横向浮动，即横向排列  */
+  /* float: left;  */
+  /* 两个li之间的距离*/
+  /* margin: 0 80px;  */
+  
+  /* width: 150px;
   height: 80px;
-}
+} */
 
-.VideoGroup .Videoli a {
+/* .VideoGroup .Videoli a { */
   /* 设置链接内容显示的格式*/
-  display: block; /* 把链接显示为块元素可使整个链接区域可点击 */
+  /* 把链接显示为块元素可使整个链接区域可点击 */
+  /* display: block; 
   color: black;
   text-align: center;
-  padding: 3px;
-  text-decoration: none; /* 去除下划线 */
+  padding: 3px; */
+  /* 去除下划线 */
+  /* text-decoration: none; 
   font-size: 190%;
-}
+} */
 .VideoGroup .Videoli a.active {
   background-color: skyblue;
 }
