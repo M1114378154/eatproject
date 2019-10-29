@@ -8,6 +8,7 @@ import 'mint-ui/lib/style.css'
 import Video from 'video.js'
 import 'video.js/dist/video-js.css'
 import { Cell } from 'mint-ui';//标题文字带链接（如：>更多）
+import { Header } from 'mint-ui';//标头
 
 
 
@@ -16,6 +17,7 @@ import { Cell } from 'mint-ui';//标题文字带链接（如：>更多）
 Vue.prototype.$video = Video
 Vue.component(Cell.name, Cell);//标题文字带链接（如：>更多）
 Vue.use(MintUI);
+Vue.component(Header.name, Header);//标头
 // Vue.component(Swipe.name, Swipe);
 // Vue.component(SwipeItem.name, SwipeItem);
 Vue.config.productionTip = false
