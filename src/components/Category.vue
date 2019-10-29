@@ -254,7 +254,7 @@ export default {
 }
 
 .flex-cateitem {
-  background-color: white;
+  /* background-color: white; */
   width: 400px;
   height: 250px;
   margin: 10px;

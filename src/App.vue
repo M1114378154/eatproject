@@ -62,9 +62,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  background: #eff3f5;
 }
   .hl_nav{
-    background-color: #FD463E;
+    background-color: skyblue;
     position: relative;
     color: #ffffff;
     min-width: 1200px;
@@ -75,12 +76,21 @@ export default {
     display: block;
     text-decoration: none;
     font-size: 150%;
-   margin-top: 6%
+   margin-top: 6%;
+   color:black;
+}
+.hl_nav .approu:hover{
+    display: block;
+    text-decoration: none;
+    font-size: 150%;
+   margin-top: 6%;
+   color:aliceblue;
 }
 .hl_nav .approu1{
     display: block;
     text-decoration: none;
     font-size: 120%;
+
    /* margin-top: 6% */
 }
 .hl_nav .shade{
@@ -140,11 +150,13 @@ export default {
     display: none;
 }
 .hl_nav .nav_list>li.active {
-    background-color: #ea0d04;
+    background-color: #0099cc;
+  
 }
 .hl_nav .nav_list>li:hover{
-    background-color: #ea0d04;
-    
+
+    background-color: #0099cc;
+
 }
 .hl_nav .nav_list>li:hover>ul{
     display: block;
