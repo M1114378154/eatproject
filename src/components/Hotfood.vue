@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="Hotfood">
-      <div class="Hottop">
+      <!-- <div class="Hottop">
       <center>
         <ul class="Hcateul">
           <li class="Hcateli">
@@ -15,7 +15,7 @@
           </li>
         </ul>
       </center>
-    </div>
+    </div> -->
       
       <div class="gamsearch-1">
         <input class="gaminput" type="text" placeholder="搜索好吃食谱" name id value />
