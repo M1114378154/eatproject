@@ -195,6 +195,7 @@ export default {
   color: #ccc;
   cursor: pointer;
    margin-top:-37px; 
+   border-bottom: solid 1px gray;
   /* margin-left: 80%; */
 }
 /* .gyul {
@@ -276,6 +277,7 @@ export default {
   width: 100%;
   height: 270px;
   background-color: whitesmoke;
+   border-bottom: solid 1px gray;
 }
 
 .flex-item-3 {
