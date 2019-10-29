@@ -41,6 +41,9 @@
         <li class="">
           <router-link class="approu" to="/Mygroup">我的</router-link>  
         </li>
+        <li class="login">
+          <router-link class="applogin" to="/log">登录</router-link>  
+        </li>
       </ul>
      
     </nav>
@@ -79,11 +82,26 @@ export default {
    margin-top: 6%;
    color:black;
 }
+.hl_nav .applogin{
+    display: block;
+    text-decoration: none;
+    font-size: 100%;
+   margin-top: 10%;
+   /* float:right; */
+   color:black;
+}
 .hl_nav .approu:hover{
     display: block;
     text-decoration: none;
     font-size: 150%;
    margin-top: 6%;
+   color:aliceblue;
+}
+.hl_nav .applogin:hover{
+    display: block;
+    text-decoration: none;
+    font-size: 100%;
+   margin-top: 10%;
    color:aliceblue;
 }
 .hl_nav .approu1{
@@ -128,6 +146,14 @@ export default {
     text-align: center;
     height: 50px;
 }
+.hl_nav .nav_list>.login{
+    padding: 0;
+    float: right;
+    margin: 0;
+    width: 10%;
+    text-align: center;
+    height: 50px;
+}
 .hl_nav .nav_head{
     height: 50px;
     line-height: 50px;
@@ -154,11 +180,13 @@ export default {
   
 }
 .hl_nav .nav_list>li:hover{
+
     background-color: #0099cc;
-      
+
 }
 .hl_nav .nav_list>li:hover>ul{
     display: block;
+    color: white;
 
 }
 
