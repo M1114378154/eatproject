@@ -24,7 +24,7 @@
 
         <div class="logrow">
           <input type="logsubmit" value="登录" />
-          <router-link class="logsubmit1" to="/register">注册1</router-link>
+          <router-link class="logsubmit1" to="/register">注册</router-link>
           <!-- <input type="logsubmit1"  value="注册" /> -->
         </div>
       </form>
