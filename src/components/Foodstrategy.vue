@@ -281,7 +281,7 @@ export default {
 }
 
 .flex-item-3 {
-  background-color: white;
+  /* background-color: white; */
   width: 400px;
   height: 250px;
   margin: 10px;

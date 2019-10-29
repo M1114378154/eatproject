@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="catetop">
+    <!-- <div class="catetop">
       <center>
         <ul class="cateul">
           <li class="cateli">
@@ -14,7 +14,7 @@
           </li>
         </ul>
       </center>
-    </div>
+    </div> -->
 
     <div class="left">
       <ul class="food">
@@ -42,6 +42,28 @@
         <li class="foodli">
           <a href="#about">主食小吃</a>
         </li>
+        <li class="foodli">
+          <a href="#about">外国美食</a>
+        </li>
+        <li class="foodli">
+          <a href="#about">节日节气</a>
+        </li>
+        <li class="foodli">
+          <a href="#about">烘培</a>
+        </li>
+        <li class="foodli">
+          <a href="#about">健康食谱</a>
+        </li>
+        <li class="foodli">
+          <a href="#about">烹饪时间</a>
+        </li>
+        <li class="foodli">
+          <a href="#about">中式菜式</a>
+        </li>
+        <li class="foodli">
+          <a href="#about">适合人群</a>
+        </li>
+        
       </ul>
    
 
@@ -135,6 +157,51 @@
           </div>
         </div>
       </div>
+  <div class="flex-cate3">
+        <div class="flex-cateitem">
+          <a href>
+            <img
+              style="width: 100%; height: 240px; display: block;"
+              alt="100%x200"
+              src="http://img1.qunarzz.com/travel/d6/1508/f7/93e0cf69d0f11.jpg"
+              data-src="holder.js/100%x200"
+              data-holder-rendered="true"
+            />
+          </a>
+          <div class="caption center">
+            <h3>家常菜式</h3>
+          </div>
+        </div>
+        <div class="flex-cateitem">
+          <a href>
+            <img
+              style="width: 100%; height: 240px; display: block;"
+              alt="100%x200"
+              src="http://n.sinaimg.cn/sinacn/w800h599/20180112/a410-fyqnicm0195416.jpg"
+              data-src="holder.js/100%x200"
+              data-holder-rendered="true"
+            />
+          </a>
+          <div class="caption center">
+            <h3>粤菜</h3>
+          </div>
+        </div>
+       
+        <div class="flex-cateitem">
+          <a href>
+            <img
+              style="width: 100%; height: 240px; display: block;"
+              alt="100%x200"
+              src="http://p1.meituan.net/deal/3ac21b53d1d88f3712238967c2c84686199946.jpg"
+              data-src="holder.js/100%x200"
+              data-holder-rendered="true"
+            />
+          </a>
+          <div class="caption center">
+            <h3>东北菜式</h3>
+          </div>
+        </div>
+      </div>
   </div>
 
 
@@ -160,7 +227,7 @@ export default {
   width: 70%;
   height: 270px;
   /* background-color: whitesmoke; */
-  transform: translateY(-330px);
+  transform: translateY(-630px);
     margin-left: 16%;
 }
 .flex-cate2 {
@@ -171,12 +238,23 @@ export default {
   width: 70%;
   height: 270px;
   /* background-color: whitesmoke; */
-  transform: translateY(-290px);
+  transform: translateY(-590px);
+    margin-left: 16%;
+}
+.flex-cate3 {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 70%;
+  height: 270px;
+  /* background-color: whitesmoke; */
+  transform: translateY(-550px);
     margin-left: 16%;
 }
 
 .flex-cateitem {
-  background-color: white;
+  /* background-color: white; */
   width: 400px;
   height: 250px;
   margin: 10px;
@@ -188,6 +266,7 @@ export default {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  /* margin-top: 30%; */
   width: 200px;
   /* background-color: #f1f1f1; */
 }
