@@ -24,7 +24,8 @@
 
         <div class="logrow">
           <input type="logsubmit" value="登录" />
-          <input type="logsubmit1" value="注册" />
+          <router-link class="logsubmit1" to="/register">注册</router-link>
+          <!-- <input type="logsubmit1"  value="注册" /> -->
         </div>
       </form>
 
@@ -79,14 +80,14 @@ input[type="logsubmit"] {
   cursor: pointer;
   /* float: right; */
   text-align: center;
-  width: 10%;
+  width: 35px;
   /* margin-right: 1%; */
 }
 
 input[type="logsubmit"]:hover {
   background-color: #45a049;
 }
-input[type="logsubmit1"] {
+.logsubmit1 {
   background-color: skyblue;
 
   color: white;
@@ -98,9 +99,10 @@ input[type="logsubmit1"] {
   text-align: center;
   width: 10%;
   margin-left: 7%;
+  text-decoration: none;
 }
 
-input[type="logsubmit1"]:hover {
+.logsubmit1:hover {
   background-color: #0099cc;
 }
 
