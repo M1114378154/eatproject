@@ -1,17 +1,5 @@
 <template>
   <div>
-    <div class="gamtop">
-      <center>
-        <ul class="gamul">
-          <li class="gamli">
-            <a href="#">好吃活动专区</a>
-          </li>
-          <li class="gamli">
-            <a class="active" href="#">好吃话题区</a>
-          </li>
-        </ul>
-      </center>
-    </div>
     <div class="gamsearch">
       <input class="gaminput" type="text" placeholder="请输入..." name id value />
       <button>
