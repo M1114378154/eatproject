@@ -1,6 +1,6 @@
 <template>
   <div class>
-      <div class="Detop">
+      <!-- <div class="Detop">
       <center>
         <ul class="Dgamul">
           <li class="Dgamli">
@@ -11,7 +11,7 @@
           </li>
         </ul>
       </center>
-    </div>
+    </div> -->
     <!-- 搜索 -->
     <div class="gamsearch-3">
       <input class="gaminput" type="text" placeholder="搜索活动" name id value />
@@ -23,6 +23,7 @@
     <!-- 轮播图 -->
     <Swipercom :ItemImgs="sliders"></Swipercom>
     <!-- 美食达人 -->
+    
     <div class="flex-container-2">
       <div class="flex-item-2">
         <a href>
