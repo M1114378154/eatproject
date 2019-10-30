@@ -15,6 +15,9 @@
 
     <nav class="hl_nav">
       <ul class="nav_list">
+        <li class="login">
+          <router-link class="applogin" to="/log" >登录</router-link>         
+        </li>
         <li class="active">
           <router-link class="approu" to="/Hotfood">首页</router-link>
           <ul class="offset_left">
@@ -41,10 +44,7 @@
         <li class>
           <router-link class="approu" to="/Mygroup">我的</router-link>
         </li>
-        <li class="login">
-          <router-link class="applogin" to="/log" >登录</router-link>
-          
-        </li>
+        
       </ul>
     </nav>
     <router-view />
@@ -87,9 +87,9 @@ export default {
 .hl_nav .applogin {
   display: block;
   text-decoration: none;
-  font-size: 100%;
-  margin-top: 10%;
-  float:left;
+  font-size: 150%;
+  margin-top: 6%;
+  /* float:left; */
   color: black;
 }
 .hl_nav .approu:hover {
@@ -102,8 +102,8 @@ export default {
 .hl_nav .applogin:hover {
   display: block;
   text-decoration: none;
-  font-size: 100%;
-  margin-top: 10%;
+  font-size: 150%;
+  margin-top: 6%;
   color: aliceblue;
 }
 .hl_nav .approu1 {
@@ -150,7 +150,7 @@ export default {
 }
 .hl_nav .nav_list > .login {
   padding: 0;
-  float: right;
+  float: left;
   margin: 0;
   width: 10%;
   text-align: center;
