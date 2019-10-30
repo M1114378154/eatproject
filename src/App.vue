@@ -43,6 +43,7 @@
         </li>
         <li class="login">
           <router-link class="applogin" to="/log" >登录</router-link>
+          
         </li>
       </ul>
     </nav>
@@ -88,7 +89,7 @@ export default {
   text-decoration: none;
   font-size: 100%;
   margin-top: 10%;
-  /* float:right; */
+  float:left;
   color: black;
 }
 .hl_nav .approu:hover {
