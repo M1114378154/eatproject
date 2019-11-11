@@ -30,10 +30,13 @@
           </ul>
         </li>
         <li class>
-          <router-link class="approu" to="/Deliciousarea">好吃区</router-link>
+          <router-link class="approu" to="/">好吃区</router-link>
           <ul class="offset_left">
             <li>
               <router-link class="approu1" to="/Gambit">好吃话题区</router-link>
+            </li>
+                    <li>
+              <router-link class="approu1" to="/Deliciousarea">好吃活动区</router-link>
             </li>
           </ul>
           <div class="shade"></div>
