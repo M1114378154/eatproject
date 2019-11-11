@@ -176,6 +176,7 @@ export default {
   list-style: none;
   overflow: hidden;
   display: none;
+  text-align: center
 }
 .hl_nav .nav_list > li.active {
   background-color: #0099cc;
